@@ -1,0 +1,1455 @@
+﻿<Window x:Class="AutomationClient.Designer"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:local="clr-namespace:AutomationClient"
+        xmlns:my="http://schemas.microsoft.com/winfx/2006/xaml/presentation/ribbon"
+        xmlns:myod="http://schemas.odyssey.com/wpf"
+        xmlns:odc="clr-namespace:Odyssey.Controls;assembly=Odyssey"
+        xmlns:xcad="http://schemas.xceed.com/wpf/xaml/avalondock"
+        Title="Auto Launch Client"
+        Width="1364"
+        Height="849"
+        Icon="Images\Apps-preferences-desktop-launch-feedback-icon.png"
+        Style="{DynamicResource FontStyle}"
+        WindowState="Maximized">
+
+    <Window.Resources>
+
+        <local:RadioBoolToIntConverter x:Key="radioBoolToIntConverter" />
+        <DataTemplate x:Key="MessageResultsImages">
+            <Image x:Name="StatusImage" />
+            <DataTemplate.Triggers>
+                <!--  pass icon  -->
+                <DataTrigger Binding="{Binding Path=Status}" Value="0">
+                    <Setter TargetName="StatusImage" Property="Source" Value="Images\passPic.png" />
+                </DataTrigger>
+                <!--  Fail icon  -->
+                <DataTrigger Binding="{Binding Path=Status}" Value="1">
+                    <Setter TargetName="StatusImage" Property="Source" Value="Images\failPic.png" />
+                </DataTrigger>
+                <!--  Info icon  -->
+                <DataTrigger Binding="{Binding Path=Status}" Value="2">
+                    <Setter TargetName="StatusImage" Property="Source" Value="Images\infoPic.png" />
+                </DataTrigger>
+            </DataTemplate.Triggers>
+        </DataTemplate>
+
+        <Style x:Key="FontStyle" TargetType="Window">
+            <Setter Property="FontFamily" Value="{Binding FontFamily, UpdateSourceTrigger=PropertyChanged}" />
+            <Setter Property="FontSize" Value="{Binding FontSize, UpdateSourceTrigger=PropertyChanged}" />
+        </Style>
+    </Window.Resources>
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="642*" />
+            <RowDefinition Height="25*" />
+        </Grid.RowDefinitions>
+        <my:Ribbon HorizontalAlignment="Stretch"
+                   VerticalAlignment="Stretch"
+                   Background="#FF749CCD">
+            <my:Ribbon.ApplicationMenu>
+                <my:RibbonApplicationMenu>
+                    <!--
+                        <my:RibbonApplicationMenu.AuxiliaryPaneContent>
+                        <Grid>
+                        <Grid.RowDefinitions>
+                        <RowDefinition Height="50" />
+                        <RowDefinition Height="*" />
+                        </Grid.RowDefinitions>
+                        <StackPanel Grid.Row="0">
+                        <TextBlock FontSize="14" FontWeight="Bold" Foreground="Gray" Margin="10" Text="Recent Edit Objects" />
+                        <Separator />
+                        </StackPanel>
+                        <DockPanel Grid.Row="1">
+                        <ListView ItemsSource="{Binding RecentObjects, UpdateSourceTrigger=PropertyChanged}" Name="recentLv">
+                        <ListView.View>
+                        <GridView>
+                        <GridViewColumn>
+                        <GridViewColumn.CellTemplate>
+                        <DataTemplate>
+                        <StackPanel Orientation="Horizontal">
+                        <Image Height="40" Margin="0,0,20,0" Source="{Binding Image}" />
+                        <Button Background="White" BorderBrush="Transparent" Command="{Binding ElementName=recentLv, Path=DataContext.ComplexObjectTreeViewSelectedNode}" CommandParameter="{Binding Path=FullPath}" Content="{Binding Path=Label}" Height="30" HorizontalContentAlignment="Left" Width="220" />
+                        </StackPanel>
+                        </DataTemplate>
+                        </GridViewColumn.CellTemplate>
+                        </GridViewColumn>
+                        </GridView>
+                        </ListView.View>
+                        </ListView>
+                        </DockPanel>
+                        </Grid>
+                        </my:RibbonApplicationMenu.AuxiliaryPaneContent>
+                    -->
+
+                    <my:RibbonApplicationMenuItem x:Name="saveScriptBtn"
+                                                  Command="{Binding SetToolBarAction}"
+                                                  CommandParameter="SaveScript"
+                                                  Header="Save Script"
+                                                  ImageSource="Images\Save-Script.png" />
+                    <my:RibbonApplicationMenuItem Command="{Binding SetToolBarAction}"
+                                                  CommandParameter="SaveTest"
+                                                  Header="Save Test"
+                                                  ImageSource="Images\Save-Test.png" />
+                    <my:RibbonApplicationMenuItem Command="{Binding SetToolBarAction}"
+                                                  CommandParameter="SaveSuite"
+                                                  Header="Save Suite"
+                                                  ImageSource="Images\Save-Test.png" />
+                    <my:RibbonApplicationMenuItem Command="{Binding SetToolBarAction}"
+                                                  CommandParameter="ExportSuite"
+                                                  Header="Export Suite"
+                                                  ImageSource="Images\export-icon.png" />
+                    <my:RibbonApplicationMenuItem x:Name="exitMenuBtn"
+                                                  Click="exitMenuBtn_Click"
+                                                  Header="Exit"
+                                                  ImageSource="Images\Actions-dialog-close-icon.png" />
+                    <my:RibbonApplicationMenuItem Height="100" IsEnabled="False" />
+                </my:RibbonApplicationMenu>
+            </my:Ribbon.ApplicationMenu>
+            <my:RibbonTab Name="HomeTab"
+                          Height="75"
+                          Header="Home">
+                <my:RibbonGroup Background="#FFBED0E7" Header="Edit">
+
+                    <my:RibbonButton Name="Clear"
+                                     Command="{Binding SetToolBarAction}"
+                                     CommandParameter="ClearAllEntities"
+                                     Label="Clear"
+                                     LargeImageSource="Images\newPic.png" />
+                    <my:RibbonButton Name="deleteStep"
+                                     Click="deleteStep_Click"
+                                     Command="{Binding SetToolBarAction}"
+                                     CommandParameter="delStep"
+                                     Label="Delete"
+                                     LargeImageSource="Images\Sign-Error-icon.png" />
+                    <my:RibbonButton Name="RefreshBtn"
+                                     Command="{Binding SetToolBarAction}"
+                                     CommandParameter="RefreshFiles"
+                                     Label="Refresh"
+                                     LargeImageSource="Images\Refresh-icon.png" />
+                    <my:RibbonButton Name="Duplicate"
+                                     Command="{Binding SetToolBarAction}"
+                                     CommandParameter="DuplicateStepEntity"
+                                     Label="Duplicate"
+                                     LargeImageSource="Images\paste-icon.png">
+                        <my:RibbonButton.Style>
+                            <Style>
+                                <Style.Triggers>
+                                    <DataTrigger Binding="{Binding SelectedStepEntity}" Value="{x:Null}">
+                                        <Setter Property="UIElement.IsEnabled" Value="false" />
+                                    </DataTrigger>
+                                </Style.Triggers>
+                            </Style>
+                        </my:RibbonButton.Style>
+                    </my:RibbonButton>
+
+                    <my:RibbonButton Name="CutStep"
+                                     Click="CutStep_Click"
+                                     Label="Cut"
+                                     LargeImageSource="Images\Edit-Cut-icon.png" />
+                    <my:RibbonButton Name="CopyStep"
+                                     Click="CopyStep_Click"
+                                     Label="Copy"
+                                     LargeImageSource="Images\Copy-icon-step.png" />
+
+                    <my:RibbonButton Name="PasteStep"
+                                     Command="{Binding SetToolBarAction}"
+                                     CommandParameter="pasteStep"
+                                     Label="Paste"
+                                     LargeImageSource="Images\Paste-icon-Step.png" />
+
+                    <my:RibbonButton Command="{Binding SetToolBarAction}"
+                                     CommandParameter="UndoScript"
+                                     Label="Undo"
+                                     LargeImageSource="Images\Undo-icon.png" />
+                </my:RibbonGroup>
+
+                <my:RibbonGroup Background="#FFBED0E7" Header="Arrange">
+                    <my:RibbonButton Name="moveUp"
+                                     Click="moveUp_Click"
+                                     Command="{Binding SetToolBarAction}"
+                                     CommandParameter="MoveElementUp"
+                                     Label="Up"
+                                     LargeImageSource="Images\Up-32.png" />
+                    <my:RibbonButton Name="moveDw"
+                                     Click="moveDw_Click"
+                                     Command="{Binding SetToolBarAction}"
+                                     CommandParameter="MoveElementDown"
+                                     Label="Down"
+                                     LargeImageSource="Images\down-32.png" />
+                </my:RibbonGroup>
+
+                <my:RibbonGroup Background="#FFBED0E7" Header="Server">
+                    <my:RibbonButton Command="{Binding SetToolBarAction}"
+                                     CommandParameter="ServerConnect"
+                                     Label="Connect"
+                                     LargeImageSource="Images\Actions-network-connect-icon.png" />
+                    <my:RibbonButton Command="{Binding SetToolBarAction}"
+                                     CommandParameter="ServerLaunch"
+                                     Label="Activate"
+                                     LargeImageSource="Images\Home-Server-icon.png" />
+                </my:RibbonGroup>
+
+                <my:RibbonGroup Background="#FFBED0E7" Header="Execute">
+                    <my:RibbonToggleButton Name="debugBtn"
+                                           Click="debugBtn_Click"
+                                           Command="{Binding SetToolBarAction}"
+                                           Label="DebugOn"
+                                           LargeImageSource="Images\Red-Ball-icon.png" />
+
+                    <my:RibbonButton Command="{Binding SetToolBarAction}"
+                                     CommandParameter="PauseExecution"
+                                     Label="Pause"
+                                     LargeImageSource="Images\pause-icon.png">
+                        <my:RibbonButton.Style>
+                            <Style>
+                                <Style.Triggers>
+                                    <DataTrigger Binding="{Binding ServerConnect}" Value="{x:Null}">
+                                        <Setter Property="UIElement.IsEnabled" Value="false" />
+                                    </DataTrigger>
+                                </Style.Triggers>
+                            </Style>
+                        </my:RibbonButton.Style>
+                    </my:RibbonButton>
+                    <my:RibbonButton Command="{Binding SetToolBarAction}"
+                                     CommandParameter="StopExecution"
+                                     Label="Stop"
+                                     LargeImageSource="Images\stop-icon.png">
+                        <my:RibbonButton.Style>
+                            <Style>
+                                <Style.Triggers>
+                                    <DataTrigger Binding="{Binding ServerConnect}" Value="{x:Null}">
+                                        <Setter Property="UIElement.IsEnabled" Value="false" />
+                                    </DataTrigger>
+                                </Style.Triggers>
+                            </Style>
+                        </my:RibbonButton.Style>
+                    </my:RibbonButton>
+                    <my:RibbonButton Name="runBtn"
+                                     Click="runBtn_Click"
+                                     Command="{Binding SetToolBarAction}"
+                                     CommandParameter="ExecuteTest"
+                                     Label="Run"
+                                     LargeImageSource="Images\play-icon.png">
+
+                        <my:RibbonButton.Style>
+                            <Style>
+                                <Style.Triggers>
+                                    <DataTrigger Binding="{Binding ServerConnect}" Value="{x:Null}">
+                                        <Setter Property="UIElement.IsEnabled" Value="false" />
+                                    </DataTrigger>
+                                    <DataTrigger Binding="{Binding SelectedSuiteName}" Value="{x:Null}">
+                                        <Setter Property="UIElement.IsEnabled" Value="false" />
+                                    </DataTrigger>
+                                </Style.Triggers>
+                            </Style>
+                        </my:RibbonButton.Style>
+                    </my:RibbonButton>
+                    <StackPanel Orientation="Horizontal">
+                        <TextBlock Text="Cycles:    " />
+                        <TextBox Width="60"
+                                 Height="20"
+                                 Text="{Binding Path=Cycles,
+                                                UpdateSourceTrigger=PropertyChanged}" />
+                    </StackPanel>
+                </my:RibbonGroup>
+                <my:RibbonGroup Background="#FFBED0E7" Header="On Failure">
+                    <RadioButton Content="Skip Test" IsChecked="{Binding Path=OnFailerAction, Converter={StaticResource radioBoolToIntConverter}, ConverterParameter=SkipTest, Mode=TwoWay}" />
+                    <RadioButton Content="Continue" IsChecked="{Binding Path=OnFailerAction, Converter={StaticResource radioBoolToIntConverter}, ConverterParameter=Continue, Mode=TwoWay}" />
+                    <RadioButton Content="Stop" IsChecked="{Binding Path=OnFailerAction, Converter={StaticResource radioBoolToIntConverter}, ConverterParameter=Stop, Mode=TwoWay}" />
+                </my:RibbonGroup>
+                <my:RibbonGroup Background="#FFBED0E7" Header="Report">
+                    <my:RibbonButton x:Name="reportBtn"
+                                     Click="reportBtn_Click"
+                                     LargeImageSource="Images\Chart-1-icon.png" />
+                </my:RibbonGroup>
+                <my:RibbonGroup Background="#FFBED0E7" Header="About">
+                    <my:RibbonButton x:Name="aboutBtn"
+                                     Click="aboutBtn_Click"
+                                     LargeImageSource="Images\Help-icon.png" />
+                </my:RibbonGroup>
+            </my:RibbonTab>
+            <my:RibbonTab Header="Settings">
+                <my:RibbonGroup Background="#FFBED0E7">
+                    <my:RibbonButton x:Name="settingBtn"
+                                     Command="{Binding SetToolBarAction}"
+                                     CommandParameter="OpenAppConfig"
+                                     Label="Application"
+                                     LargeImageSource="Images\Categories-preferences-system-icon.png" />
+                </my:RibbonGroup>
+                <my:RibbonGroup Background="#FFBED0E7" Header="Font">
+                    <StackPanel Orientation="Horizontal">
+                        <ComboBox Width="100"
+                                  ItemsSource="{Binding Source={x:Static Member=Fonts.SystemFontFamilies}}"
+                                  Text="{Binding FontFamily}">
+                            <ComboBox.ItemTemplate>
+                                <DataTemplate>
+                                    <TextBlock FontFamily="{Binding .}" Text="{Binding Source}" />
+                                </DataTemplate>
+                            </ComboBox.ItemTemplate>
+                        </ComboBox>
+
+                        <ComboBox Width="40"
+                                  IsEditable="False"
+                                  IsEnabled="True"
+                                  Text="{Binding FontSize}">
+                            <ComboBoxItem>11</ComboBoxItem>
+                            <ComboBoxItem>12</ComboBoxItem>
+                            <ComboBoxItem>14</ComboBoxItem>
+                            <ComboBoxItem>16</ComboBoxItem>
+                            <ComboBoxItem>18</ComboBoxItem>
+                        </ComboBox>
+                    </StackPanel>
+                </my:RibbonGroup>
+            </my:RibbonTab>
+        </my:Ribbon>
+        <Grid Grid.Row="1"
+              HorizontalAlignment="Stretch"
+              VerticalAlignment="Stretch">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="200*" />
+                <ColumnDefinition Width="4*" />
+                <ColumnDefinition Width="600*" />
+            </Grid.ColumnDefinitions>
+            <GridSplitter Grid.Column="1"
+                          Width="3"
+                          HorizontalAlignment="Center"
+                          VerticalAlignment="Stretch"
+                          Background="Transparent"
+                          ResizeDirection="Columns" />
+
+            <xcad:DockingManager Name="myDock"
+                                 Grid.ColumnSpan="3"
+                                 AllowMixedOrientation="True"
+                                 BorderBrush="Black"
+                                 BorderThickness="1"
+                                 SnapsToDevicePixels="False">
+
+                <xcad:DockingManager.DocumentHeaderTemplate>
+                    <DataTemplate>
+                        <StackPanel Orientation="Horizontal">
+                            <Image Margin="0,0,4,0" Source="{Binding IconSource}" />
+                            <TextBlock Text="{Binding Title}" />
+                        </StackPanel>
+                    </DataTemplate>
+                </xcad:DockingManager.DocumentHeaderTemplate>
+
+                <xcad:DockingManager.Theme>
+                    <xcad:AeroTheme />
+                </xcad:DockingManager.Theme>
+
+                <xcad:LayoutRoot x:Name="_layoutRoot">
+
+                    <xcad:LayoutPanel Orientation="Horizontal">
+                        <xcad:LayoutAnchorablePaneGroup DockWidth="300">
+                            <xcad:LayoutAnchorablePane>
+
+                                <xcad:LayoutAnchorable Title=""
+                                                       ContentId=""
+                                                       IconSource="/Images/Actions-system-run-icon.png">
+
+                                    <ScrollViewer VerticalScrollBarVisibility="Visible">
+
+                                        <GroupBox Header="{Binding SelectedSuiteNameGrp, UpdateSourceTrigger=PropertyChanged}">
+                                            <StackPanel Orientation="Vertical">
+                                                <DataGrid Name="TestListGrid"
+                                                          AlternatingRowBackground="#FFEAF0F8"
+                                                          AutoGenerateColumns="False"
+                                                          BorderThickness="1"
+                                                          CanUserSortColumns="False"
+                                                          FontSize="14"
+                                                          ItemsSource="{Binding SuiteEntitiesList}"
+                                                          LoadingRow="TestListGrid_LoadingRow"
+                                                          SelectedValue="{Binding SelectedSuiteEntity}"
+                                                          SelectionChanged="TestListGrid_SelectionChanged">
+
+                                                    <DataGrid.Resources>
+                                                        <Style TargetType="{x:Type DataGridCell}">
+                                                            <EventSetter Event="PreviewMouseLeftButtonDown" Handler="DataGridCell_PreviewMouseLeftButtonDown" />
+                                                        </Style>
+                                                    </DataGrid.Resources>
+                                                    <DataGrid.ContextMenu>
+                                                        <ContextMenu>
+                                                            <MenuItem Command="{Binding SetToolBarAction}"
+                                                                      CommandParameter="UpdateSuite"
+                                                                      Header="Update Suite">
+                                                                <MenuItem.Icon>
+                                                                    <Image Width="20"
+                                                                           Height="20"
+                                                                           Source="Images\Save-Script.png" />
+                                                                </MenuItem.Icon>
+                                                            </MenuItem>
+                                                        </ContextMenu>
+                                                    </DataGrid.ContextMenu>
+                                                    <DataGrid.Columns>
+                                                        <DataGridCheckBoxColumn Width="55"
+                                                                                Binding="{Binding Enable,
+                                                                                                  UpdateSourceTrigger=PropertyChanged}"
+                                                                                Header="Enable" />
+                                                        <DataGridTextColumn Width="230"
+                                                                            Binding="{Binding Name,
+                                                                                              UpdateSourceTrigger=PropertyChanged}"
+                                                                            Header="Test Name"
+                                                                            IsReadOnly="True" />
+                                                        <DataGridTextColumn Width="230"
+                                                                            Binding="{Binding Params,
+                                                                                              UpdateSourceTrigger=PropertyChanged}"
+                                                                            Header="Params" />
+                                                        <DataGridTextColumn Width="250"
+                                                                            Binding="{Binding Comment,
+                                                                                              UpdateSourceTrigger=PropertyChanged}"
+                                                                            Header="Comment" />
+                                                    </DataGrid.Columns>
+                                                </DataGrid>
+                                                <GroupBox HorizontalAlignment="Stretch"
+                                                          VerticalAlignment="Stretch"
+                                                          FontSize="13"
+                                                          Header="Suite Description">
+                                                    <Grid>
+                                                        <TextBox Name="suiteDescriptionTxb"
+                                                                 Height="200"
+                                                                 HorizontalAlignment="Stretch"
+                                                                 VerticalAlignment="Stretch"
+                                                                 AcceptsReturn="True"
+                                                                 Text="{Binding SuiteDescription,
+                                                                                UpdateSourceTrigger=PropertyChanged}"
+                                                                 TextWrapping="Wrap"
+                                                                 VerticalScrollBarVisibility="Visible" />
+                                                    </Grid>
+                                                </GroupBox>
+                                                <GroupBox Header="Suite TearDown Script">
+                                                    <StackPanel Orientation="Horizontal">
+                                                        <TextBox Width="225"
+                                                                 Margin="0,0,3,0"
+                                                                 Text="{Binding SuiteTearDownScript,
+                                                                                UpdateSourceTrigger=PropertyChanged}" />
+
+                                                        <Button Name="ClearTearSuiteDownBtn"
+                                                                Width="25"
+                                                                Height="25"
+                                                                Click="ClearTearSuiteDownBtn_Click">
+                                                            <Image Source="Images\newPic.png" />
+                                                        </Button>
+                                                    </StackPanel>
+
+
+
+                                                </GroupBox>
+                                            </StackPanel>
+                                        </GroupBox>
+                                    </ScrollViewer>
+                                </xcad:LayoutAnchorable>
+
+                                <xcad:LayoutAnchorable Title=""
+                                                       ContentId="ToolBox"
+                                                       IconSource="/Images/tool-box-icon1.png">
+                                    <TreeView Name="treeView11" Background="White">
+                                        <TreeViewItem HorizontalAlignment="Stretch"
+                                                      Header="General"
+                                                      IsExpanded="True">
+                                            <Button BorderBrush="Transparent"
+                                                    Command="{Binding SelectToolBoxItem}"
+                                                    CommandParameter="1">
+                                                <StackPanel Orientation="Horizontal">
+                                                    <Image Height="20"
+                                                           Margin="0,0,4,0"
+                                                           Source="/Images/clock-icon.png" />
+                                                    <TextBlock Text="Sleep" />
+                                                </StackPanel>
+                                            </Button>
+
+                                            <Button BorderBrush="Transparent"
+                                                    Command="{Binding SelectToolBoxItem}"
+                                                    CommandParameter="2">
+                                                <StackPanel Orientation="Horizontal">
+                                                    <Image Height="20"
+                                                           Margin="0,0,4,0"
+                                                           Source="/Images/Win-Command-Prompt-icon.png" />
+                                                    <TextBlock Text="Run Program" />
+                                                </StackPanel>
+                                            </Button>
+
+                                            <Button BorderBrush="Transparent"
+                                                    Command="{Binding SelectToolBoxItem}"
+                                                    CommandParameter="4">
+                                                <StackPanel Orientation="Horizontal">
+                                                    <Image Height="20"
+                                                           Margin="0,0,4,0"
+                                                           Source="/Images/FileHash.png" />
+                                                    <TextBlock Text="Variables Operations" />
+                                                </StackPanel>
+                                            </Button>
+
+                                            <Button BorderBrush="Transparent"
+                                                    Command="{Binding SelectToolBoxItem}"
+                                                    CommandParameter="27">
+                                                <StackPanel Orientation="Horizontal">
+                                                    <Image Height="20"
+                                                           Margin="0,0,4,0"
+                                                           Source="/Images/checklist-icon.png" />
+                                                    <TextBlock Text="List" />
+                                                </StackPanel>
+                                            </Button>
+
+                                            <Button BorderBrush="Transparent"
+                                                    Command="{Binding SelectToolBoxItem}"
+                                                    CommandParameter="28">
+                                                <StackPanel Orientation="Horizontal">
+                                                    <Image Height="20"
+                                                           Margin="0,0,4,0"
+                                                           Source="/Images/Dictionary-Mac-Book-icon.png" />
+                                                    <TextBlock Text="Dictionary" />
+                                                </StackPanel>
+                                            </Button>
+
+                                            <Button BorderBrush="Transparent"
+                                                    Command="{Binding SelectToolBoxItem}"
+                                                    CommandParameter="5">
+                                                <StackPanel Orientation="Horizontal">
+                                                    <Image Height="20"
+                                                           Margin="0,0,4,0"
+                                                           Source="/Images/Text-File-icon.png" />
+                                                    <TextBlock Text="Text Operations" />
+                                                </StackPanel>
+                                            </Button>
+
+                                            <Button BorderBrush="Transparent"
+                                                    Command="{Binding SelectToolBoxItem}"
+                                                    CommandParameter="9">
+                                                <StackPanel Orientation="Horizontal">
+                                                    <Image Height="20"
+                                                           Margin="0,0,4,0"
+                                                           Source="/Images/Timer-icon.png" />
+                                                    <TextBlock Text="Timers" />
+                                                </StackPanel>
+                                            </Button>
+
+                                            <Button BorderBrush="Transparent"
+                                                    Command="{Binding SelectToolBoxItem}"
+                                                    CommandParameter="13">
+                                                <StackPanel Orientation="Horizontal">
+                                                    <Image Height="20"
+                                                           Margin="0,0,4,0"
+                                                           Source="/Images/data-redo-icon.png" />
+                                                    <TextBlock Text="Sqlite" />
+                                                </StackPanel>
+                                            </Button>
+
+                                            <Button BorderBrush="Transparent"
+                                                    Command="{Binding SelectToolBoxItem}"
+                                                    CommandParameter="14">
+                                                <StackPanel Orientation="Horizontal">
+                                                    <Image Height="20"
+                                                           Margin="0,0,4,0"
+                                                           Source="/Images/Apps-preferences-system-time-icon.png" />
+                                                    <TextBlock Text="Date Time" />
+                                                </StackPanel>
+                                            </Button>
+
+                                            <Button BorderBrush="Transparent"
+                                                    Command="{Binding SelectToolBoxItem}"
+                                                    CommandParameter="15">
+                                                <StackPanel Orientation="Horizontal">
+                                                    <Image Height="20"
+                                                           Margin="0,0,4,0"
+                                                           Source="/Images/Mimetype-vcalendar-icon.png" />
+                                                    <TextBlock Text="Tables" />
+                                                </StackPanel>
+                                            </Button>
+
+                                            <!--
+                                                <Button BorderBrush="Transparent"
+                                                Command="{Binding SelectToolBoxItem}"
+                                                CommandParameter="16">
+                                                <StackPanel Orientation="Horizontal">
+                                                <Image Height="20"
+                                                Margin="0,0,4,0"
+                                                Source="/Images/cog-edit-icon.png" />
+                                                <TextBlock Text="GUI Automation" />
+                                                </StackPanel>
+                                                </Button>
+                                            -->
+
+                                            <Button BorderBrush="Transparent"
+                                                    Command="{Binding SelectToolBoxItem}"
+                                                    CommandParameter="17">
+                                                <StackPanel Orientation="Horizontal">
+                                                    <Image Height="20"
+                                                           Margin="0,0,4,0"
+                                                           Source="/Images/Messages-icon.png" />
+                                                    <TextBlock Text="Message Show" />
+                                                </StackPanel>
+                                            </Button>
+                                            <Button BorderBrush="Transparent"
+                                                    Command="{Binding SelectToolBoxItem}"
+                                                    CommandParameter="24">
+                                                <StackPanel Orientation="Horizontal">
+                                                    <Image Height="20"
+                                                           Margin="0,0,4,0"
+                                                           Source="/Images/file-icon.png" />
+                                                    <TextBlock Text="File Action" />
+                                                </StackPanel>
+                                            </Button>
+                                            <Button BorderBrush="Transparent"
+                                                    Command="{Binding SelectToolBoxItem}"
+                                                    CommandParameter="20">
+                                                <StackPanel Orientation="Horizontal">
+                                                    <Image Height="20"
+                                                           Margin="0,0,4,0"
+                                                           Source="/Images/ComplexObject.png" />
+                                                    <TextBlock Text="Script Action" />
+                                                </StackPanel>
+                                            </Button>
+                                            <Button BorderBrush="Transparent"
+                                                    Command="{Binding SelectToolBoxItem}"
+                                                    CommandParameter="25">
+                                                <StackPanel Orientation="Horizontal">
+                                                    <Image Height="20"
+                                                           Margin="0,0,4,0"
+                                                           Source="/Images/Actions-system-run-icon.png" />
+                                                    <TextBlock Text="System Action" />
+                                                </StackPanel>
+                                            </Button>
+                                            <Button BorderBrush="Transparent"
+                                                    Command="{Binding SelectToolBoxItem}"
+                                                    CommandParameter="26">
+                                                <StackPanel Orientation="Horizontal">
+                                                    <Image Height="20"
+                                                           Margin="0,0,4,0"
+                                                           Source="/Images/email-send-icon.png" />
+                                                    <TextBlock Text="Email" />
+                                                </StackPanel>
+                                            </Button>
+                                        </TreeViewItem>
+                                        <TreeViewItem HorizontalAlignment="Stretch"
+                                                      Header="Flow"
+                                                      IsExpanded="True">
+                                            <Button BorderBrush="Transparent"
+                                                    Command="{Binding SelectToolBoxItem}"
+                                                    CommandParameter="6">
+                                                <StackPanel Orientation="Horizontal">
+                                                    <Image Height="20"
+                                                           Margin="0,0,4,0"
+                                                           Source="/Images/Bookmark-icon.png" />
+                                                    <TextBlock Text="Lables" />
+                                                </StackPanel>
+                                            </Button>
+
+                                            <Button BorderBrush="Transparent"
+                                                    Command="{Binding SelectToolBoxItem}"
+                                                    CommandParameter="7">
+                                                <StackPanel Orientation="Horizontal">
+                                                    <Image Height="20"
+                                                           Margin="0,0,4,0"
+                                                           Source="/Images/Document-Flow-Chart-icon.png" />
+                                                    <TextBlock Text="Condition" />
+                                                </StackPanel>
+                                            </Button>
+
+                                            <Button BorderBrush="Transparent"
+                                                    Command="{Binding SelectToolBoxItem}"
+                                                    CommandParameter="29">
+                                                <StackPanel Orientation="Horizontal">
+                                                    <Image Height="20"
+                                                           Margin="0,0,4,0"
+                                                           Source="/Images/Switch-icon.png" />
+                                                    <TextBlock Text="Switch Case" />
+                                                </StackPanel>
+                                            </Button>
+                                        </TreeViewItem>
+
+                                        <TreeViewItem HorizontalAlignment="Stretch"
+                                                      Header="Communication"
+                                                      IsExpanded="True">
+                                            <Button BorderBrush="Transparent"
+                                                    Command="{Binding SelectToolBoxItem}"
+                                                    CommandParameter="8">
+                                                <StackPanel Orientation="Horizontal">
+                                                    <Image Height="20"
+                                                           Margin="0,0,4,0"
+                                                           Source="/Images/RS232-Data-Logger_icon.gif" />
+                                                    <TextBlock Text="RS232" />
+                                                </StackPanel>
+                                            </Button>
+
+                                            <Button BorderBrush="Transparent"
+                                                    Command="{Binding SelectToolBoxItem}"
+                                                    CommandParameter="10">
+                                                <StackPanel Orientation="Horizontal">
+                                                    <Image Height="20"
+                                                           Margin="0,0,4,0"
+                                                           Source="/Images/Apps-utilities-terminal-icon.png" />
+                                                    <TextBlock Text="SSH" />
+                                                </StackPanel>
+                                            </Button>
+
+                                            <Button BorderBrush="Transparent"
+                                                    Command="{Binding SelectToolBoxItem}"
+                                                    CommandParameter="11">
+                                                <StackPanel Orientation="Horizontal">
+                                                    <Image Height="20"
+                                                           Margin="0,0,4,0"
+                                                           Source="/Images/Computer-Monitor-icon.png" />
+                                                    <TextBlock Text="Telent" />
+                                                </StackPanel>
+                                            </Button>
+                                            <Button BorderBrush="Transparent"
+                                                    Command="{Binding SelectToolBoxItem}"
+                                                    CommandParameter="12">
+                                                <StackPanel Orientation="Horizontal">
+                                                    <Image Height="20"
+                                                           Margin="0,0,4,0"
+                                                           Source="/Images/Filesystems-ftp-icon.png" />
+                                                    <TextBlock Text="Sftp" />
+                                                </StackPanel>
+                                            </Button>
+
+                                            <Button BorderBrush="Transparent"
+                                                    Command="{Binding SelectToolBoxItem}"
+                                                    CommandParameter="30">
+                                                <StackPanel Orientation="Horizontal">
+                                                    <Image Height="20"
+                                                           Margin="0,0,4,0"
+                                                           Source="Images\Home-Server-icon.png" />
+                                                    <TextBlock Text="Remote Server" />
+                                                </StackPanel>
+                                            </Button>
+
+                                            <Button BorderBrush="Transparent"
+                                                    Command="{Binding SelectToolBoxItem}"
+                                                    CommandParameter="21">
+                                                <StackPanel Orientation="Horizontal">
+                                                    <Image Height="20"
+                                                           Margin="0,0,4,0"
+                                                           Source="/Images/Activity-Monitor-icon.png" />
+                                                    <TextBlock Text="Ping" />
+                                                </StackPanel>
+                                            </Button>
+                                        </TreeViewItem>
+                                        <TreeViewItem HorizontalAlignment="Stretch"
+                                                      Header="Devices"
+                                                      IsExpanded="True">
+                                            <Button BorderBrush="Transparent"
+                                                    Command="{Binding SelectToolBoxItem}"
+                                                    CommandParameter="23">
+                                                <StackPanel Orientation="Horizontal">
+                                                    <Image Height="20"
+                                                           Margin="0,0,4,0"
+                                                           Source="/Images/motor.png" />
+                                                    <TextBlock Text="Motor Controller" />
+                                                </StackPanel>
+                                            </Button>
+                                            <Button BorderBrush="Transparent"
+                                                    Command="{Binding SelectToolBoxItem}"
+                                                    CommandParameter="18">
+                                                <StackPanel Orientation="Horizontal">
+                                                    <Image Height="20"
+                                                           Margin="0,0,4,0"
+                                                           Source="/Images/Style-Switch-User-icon.png" />
+                                                    <TextBlock Text="Relay Control" />
+                                                </StackPanel>
+                                            </Button>
+                                            <Button BorderBrush="Transparent"
+                                                    Command="{Binding SelectToolBoxItem}"
+                                                    CommandParameter="22">
+                                                <StackPanel Orientation="Horizontal">
+                                                    <Image Height="20"
+                                                           Margin="0,0,4,0"
+                                                           Source="/Images/rsz_hr80ps.png" />
+                                                    <TextBlock Text="HR80 Power Supply" />
+                                                </StackPanel>
+                                            </Button>
+                                        </TreeViewItem>
+                                    </TreeView>
+                                </xcad:LayoutAnchorable>
+
+                                <xcad:LayoutAnchorable Title=""
+                                                       ContentId=""
+                                                       IconSource="/Images/Save-Script.png">
+
+                                    <ScrollViewer VerticalScrollBarVisibility="Visible">
+                                        <StackPanel Name="stackTree" RequestBringIntoView="stackTree_RequestBringIntoView">
+                                            <local:SerachUserControl x:Name="searchControl"
+                                                                     Height="150"
+                                                                     OpenSelectedFileClick="searchControl_OpenSelectedFileClick"
+                                                                     RunFilterClick="searchControl_RunFilterClick" />
+
+                                            <TreeView Name="ScriptsTreeView" PreviewMouseWheel="ScriptsTreeView_PreviewMouseWheel">
+                                                <TreeViewItem Header="Scripts" ItemsSource="{Binding ScannerScriptFiles}">
+                                                    <TreeViewItem.ItemTemplate>
+                                                        <HierarchicalDataTemplate ItemsSource="{Binding Path=Files}">
+                                                            <StackPanel Orientation="Horizontal">
+                                                                <!--  This button display the folder icon or the plus icon for adding Complex Object or Test  -->
+                                                                <Button Margin="0,0,2,0"
+                                                                        Background="White"
+                                                                        BorderBrush="Transparent"
+                                                                        Command="{Binding ElementName=ScriptsTreeView,
+                                                                                          Path=DataContext.NodeAddToList}"
+                                                                        CommandParameter="{Binding FullPath}">
+                                                                    <StackPanel Orientation="Horizontal">
+                                                                        <Image Height="20" Source="{Binding ActionImage}" />
+                                                                    </StackPanel>
+                                                                </Button>
+                                                                <!--  This button display the script or Test icons click will add to test list  -->
+                                                                <Button Background="White"
+                                                                        BorderBrush="Transparent"
+                                                                        Command="{Binding ElementName=ScriptsTreeView,
+                                                                                          Path=DataContext.NodeSelection}"
+                                                                        CommandParameter="{Binding FullPath}">
+
+                                                                    <StackPanel Orientation="Horizontal">
+                                                                        <Image Height="20"
+                                                                               Margin="0,0,3,0"
+                                                                               Source="{Binding Image}" />
+                                                                        <TextBlock FontSize="12" Text="{Binding Label}">
+
+                                                                            <TextBlock.ContextMenu>
+                                                                                <ContextMenu>
+                                                                                    <MenuItem Name="MenuItem"
+                                                                                              Click="MenuItem_Click_1"
+                                                                                              Header="Add as step"
+                                                                                              Tag="{Binding Path=FullPath}">
+                                                                                        <MenuItem.Icon>
+                                                                                            <Image Width="20"
+                                                                                                   Height="20"
+                                                                                                   Source="/Images/math-add-icon.png" />
+                                                                                        </MenuItem.Icon>
+                                                                                    </MenuItem>
+
+                                                                                    <MenuItem Name="MenuItemTearDown"
+                                                                                              Click="MenuItemTearDown_Click"
+                                                                                              Header="Add as Suite TearDown"
+                                                                                              Tag="{Binding Path=FullPath}">
+                                                                                        <MenuItem.Icon>
+                                                                                            <Image Width="20"
+                                                                                                   Height="20"
+                                                                                                   Source="/Images/math-add-icon.png" />
+                                                                                        </MenuItem.Icon>
+                                                                                    </MenuItem>
+
+                                                                                </ContextMenu>
+                                                                            </TextBlock.ContextMenu>
+                                                                        </TextBlock>
+                                                                    </StackPanel>
+                                                                </Button>
+                                                            </StackPanel>
+                                                        </HierarchicalDataTemplate>
+                                                    </TreeViewItem.ItemTemplate>
+                                                </TreeViewItem>
+                                                <TreeViewItem Header="Test Cases" ItemsSource="{Binding ScannerTestFiles}">
+                                                    <TreeViewItem.ItemTemplate>
+                                                        <HierarchicalDataTemplate ItemsSource="{Binding Path=Files}">
+                                                            <StackPanel Orientation="Horizontal">
+                                                                <!--  This button display the folder icon or the plus icon for adding Complex Object or Test  -->
+                                                                <Button Margin="0,0,2,0"
+                                                                        Background="White"
+                                                                        BorderBrush="Transparent"
+                                                                        Command="{Binding ElementName=ScriptsTreeView,
+                                                                                          Path=DataContext.NodeAddToList}"
+                                                                        CommandParameter="{Binding FullPath}">
+                                                                    <StackPanel Orientation="Horizontal">
+                                                                        <Image Height="20" Source="{Binding ActionImage}" />
+                                                                    </StackPanel>
+                                                                </Button>
+                                                                <!--  This button display the Complex Object or Test icons  -->
+                                                                <Button Background="White"
+                                                                        BorderBrush="Transparent"
+                                                                        Command="{Binding ElementName=ScriptsTreeView,
+                                                                                          Path=DataContext.NodeSelection}"
+                                                                        CommandParameter="{Binding FullPath}">
+                                                                    <StackPanel Orientation="Horizontal">
+                                                                        <Image Height="20"
+                                                                               Margin="0,0,3,0"
+                                                                               Source="{Binding Image}" />
+                                                                        <TextBlock FontSize="12" Text="{Binding Label}" />
+                                                                    </StackPanel>
+                                                                </Button>
+                                                            </StackPanel>
+                                                        </HierarchicalDataTemplate>
+                                                    </TreeViewItem.ItemTemplate>
+                                                </TreeViewItem>
+                                                <TreeViewItem Header="Test Suites" ItemsSource="{Binding ScannerSuitesFiles}">
+                                                    <TreeViewItem.ItemTemplate>
+                                                        <HierarchicalDataTemplate ItemsSource="{Binding Path=Files}">
+                                                            <StackPanel Orientation="Horizontal">
+                                                                <!--  This button display the folder icon or the plus icon for adding Complex Object or Test  -->
+                                                                <Button Margin="0,0,2,0"
+                                                                        Background="White"
+                                                                        BorderBrush="Transparent"
+                                                                        Command="{Binding ElementName=ScriptsTreeView,
+                                                                                          Path=DataContext.NodeAddToList}"
+                                                                        CommandParameter="{Binding FullPath}">
+                                                                    <StackPanel Orientation="Horizontal">
+                                                                        <Image Height="20" Source="{Binding ActionImage}" />
+                                                                    </StackPanel>
+                                                                </Button>
+                                                                <!--  This button display the Complex Object or Test icons  -->
+                                                                <Button Background="White"
+                                                                        BorderBrush="Transparent"
+                                                                        Command="{Binding ElementName=ScriptsTreeView,
+                                                                                          Path=DataContext.NodeSelection}"
+                                                                        CommandParameter="{Binding FullPath}">
+                                                                    <StackPanel Orientation="Horizontal">
+                                                                        <Image Height="20"
+                                                                               Margin="0,0,3,0"
+                                                                               Source="{Binding Image}" />
+                                                                        <TextBlock FontSize="12" Text="{Binding Label}" />
+                                                                    </StackPanel>
+                                                                </Button>
+                                                            </StackPanel>
+                                                        </HierarchicalDataTemplate>
+                                                    </TreeViewItem.ItemTemplate>
+                                                </TreeViewItem>
+                                            </TreeView>
+                                        </StackPanel>
+                                    </ScrollViewer>
+                                </xcad:LayoutAnchorable>
+
+
+
+
+                            </xcad:LayoutAnchorablePane>
+                        </xcad:LayoutAnchorablePaneGroup>
+                        <xcad:LayoutDocumentPaneGroup>
+                            <xcad:LayoutDocumentPane>
+
+                                <xcad:LayoutDocument Title="Edit"
+                                                     ContentId="Edit"
+                                                     IconSource="/Images/Apps-text-editor-icon.png">
+
+                                    <Grid HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
+                                        <Grid.ColumnDefinitions>
+                                            <ColumnDefinition Width="500*" />
+                                            <ColumnDefinition Width="4*" />
+                                            <ColumnDefinition Width="500*" />
+                                        </Grid.ColumnDefinitions>
+                                        <Grid Grid.Column="0">
+                                            <Grid.RowDefinitions>
+                                                <RowDefinition Height="535*" />
+                                                <RowDefinition Height="4*" />
+                                                <RowDefinition Height="122*" />
+                                            </Grid.RowDefinitions>
+                                            <GroupBox Name="scriptGroupBox"
+                                                      HorizontalAlignment="Stretch"
+                                                      VerticalAlignment="Stretch"
+                                                      Header="{Binding SelectedScriptNameGrp,
+                                                                       UpdateSourceTrigger=PropertyChanged}">
+
+                                                <DataGrid Name="dgStepEntities"
+                                                          AutoGenerateColumns="False"
+                                                          BorderThickness="1"
+                                                          CanUserReorderColumns="True"
+                                                          CanUserResizeColumns="True"
+                                                          CanUserResizeRows="False"
+                                                          CanUserSortColumns="False"
+                                                          FontSize="14"
+                                                          ItemsSource="{Binding StepEntitiesList,
+                                                                                UpdateSourceTrigger=PropertyChanged}"
+                                                          Loaded="dgStepEntities_Loaded"
+                                                          LoadingRow="dgStepEntities_LoadingRow"
+                                                          MouseDoubleClick="dgStepEntities_MouseDoubleClick"
+                                                          SelectedValue="{Binding SelectedStepEntity}"
+                                                          SelectionChanged="dgStepEntities_SelectionChanged">
+
+                                                    <DataGrid.ContextMenu>
+                                                        <ContextMenu>
+                                                            <MenuItem Command="{Binding SetToolBarAction}"
+                                                                      CommandParameter="UpdateScript"
+                                                                      Header="Save Script">
+                                                                <MenuItem.Icon>
+                                                                    <Image Width="20"
+                                                                           Height="20"
+                                                                           Source="Images\Save-Script.png" />
+                                                                </MenuItem.Icon>
+                                                            </MenuItem>
+                                                            <MenuItem Command="{Binding SetToolBarAction}"
+                                                                      CommandParameter="InvertselectSteps"
+                                                                      Header="Invert select">
+                                                                <MenuItem.Icon>
+                                                                    <Image Width="20"
+                                                                           Height="20"
+                                                                           Source="Images\refresh_switch.png" />
+                                                                </MenuItem.Icon>
+                                                            </MenuItem>
+                                                            <MenuItem Command="{Binding SetToolBarAction}"
+                                                                      CommandParameter="SelectAllSteps"
+                                                                      Header="Select All">
+                                                                <MenuItem.Icon>
+                                                                    <Image Width="20"
+                                                                           Height="20"
+                                                                           Source="Images\Check-icon.png" />
+                                                                </MenuItem.Icon>
+                                                            </MenuItem>
+                                                            <MenuItem Command="{Binding SetToolBarAction}"
+                                                                      CommandParameter="NewScript"
+                                                                      Header="New Script">
+                                                                <MenuItem.Icon>
+                                                                    <Image Width="20"
+                                                                           Height="20"
+                                                                           Source="Images\newPic.png" />
+                                                                </MenuItem.Icon>
+                                                            </MenuItem>
+                                                            <MenuItem Command="{Binding SetToolBarAction}"
+                                                                      CommandParameter="AddToTest"
+                                                                      Header="Add To Test">
+                                                                <MenuItem.Icon>
+                                                                    <Image Width="20"
+                                                                           Height="20"
+                                                                           Source="Images\Plus-icon.png" />
+                                                                </MenuItem.Icon>
+                                                            </MenuItem>
+                                                        </ContextMenu>
+                                                    </DataGrid.ContextMenu>
+                                                    <DataGrid.Style>
+                                                        <Style TargetType="DataGrid">
+                                                            <Setter Property="AlternatingRowBackground" Value="{Binding AlternatingRowBackground}" />
+                                                        </Style>
+                                                    </DataGrid.Style>
+                                                    <DataGrid.GroupStyle>
+                                                        <GroupStyle>
+                                                            <GroupStyle.HeaderTemplate>
+                                                                <DataTemplate>
+                                                                    <StackPanel>
+                                                                        <TextBlock Text="{Binding Path=Name}" />
+                                                                    </StackPanel>
+                                                                </DataTemplate>
+                                                            </GroupStyle.HeaderTemplate>
+                                                            <GroupStyle.ContainerStyle>
+                                                                <Style TargetType="{x:Type GroupItem}">
+                                                                    <Setter Property="Template">
+                                                                        <Setter.Value>
+                                                                            <ControlTemplate TargetType="{x:Type GroupItem}">
+                                                                                <Expander>
+                                                                                    <Expander.Header>
+                                                                                        <StackPanel Orientation="Horizontal">
+                                                                                            <TextBlock Text="{Binding Path=Name}" />
+                                                                                            <TextBlock Text="{Binding Path=ItemCount}" />
+                                                                                            <TextBlock Text="Items" />
+                                                                                        </StackPanel>
+                                                                                    </Expander.Header>
+                                                                                    <ItemsPresenter />
+                                                                                </Expander>
+                                                                            </ControlTemplate>
+                                                                        </Setter.Value>
+                                                                    </Setter>
+                                                                </Style>
+                                                            </GroupStyle.ContainerStyle>
+                                                        </GroupStyle>
+                                                    </DataGrid.GroupStyle>
+
+                                                    <DataGrid.ItemContainerStyle>
+                                                        <Style TargetType="{x:Type DataGridRow}">
+                                                            <EventSetter Event="DataGridRowHeader.Click" Handler="Set_Ldiary_RowHeaderStyle" />
+                                                        </Style>
+                                                    </DataGrid.ItemContainerStyle>
+
+                                                    <DataGrid.Resources>
+                                                        <Style TargetType="{x:Type DataGridCell}">
+                                                            <EventSetter Event="PreviewMouseLeftButtonDown" Handler="DataGridCell_PreviewMouseLeftButtonDown" />
+                                                            <EventSetter Event="MouseEnter" Handler="DataGridCell_MouseEnter" />
+                                                        </Style>
+                                                        <!--
+                                                            <Style TargetType="{x:Type DataGrid}">
+                                                            <Setter Property="Background">
+                                                            <Setter.Value>
+                                                            <ImageBrush ImageSource="/Images/Apps-preferences-desktop-launch-feedback-icon.png" />
+                                                            </Setter.Value>
+                                                            </Setter>
+                                                            </Style>
+                                                        -->
+                                                    </DataGrid.Resources>
+
+                                                    <DataGrid.Columns>
+
+                                                        <DataGridCheckBoxColumn Width="55"
+                                                                                Binding="{Binding Enable,
+                                                                                                  UpdateSourceTrigger=PropertyChanged}"
+                                                                                Header="Enable" />
+                                                        <DataGridTextColumn Width="150"
+                                                                            Binding="{Binding Name,
+                                                                                              UpdateSourceTrigger=PropertyChanged}"
+                                                                            Header="Type Name"
+                                                                            IsReadOnly="True" />
+                                                        <DataGridTextColumn Width="250"
+                                                                            Binding="{Binding Comment,
+                                                                                              UpdateSourceTrigger=PropertyChanged}"
+                                                                            Header="Comment" />
+                                                        <DataGridTextColumn Width="150"
+                                                                            Binding="{Binding StepDetails,
+                                                                                              UpdateSourceTrigger=PropertyChanged}"
+                                                                            Header="Step Details"
+                                                                            IsReadOnly="True" />
+                                                        <DataGridTextColumn Width="120"
+                                                                            Binding="{Binding OnFailureLabel,
+                                                                                              UpdateSourceTrigger=PropertyChanged}"
+                                                                            Header="On Failure Lable" />
+                                                    </DataGrid.Columns>
+                                                </DataGrid>
+                                            </GroupBox>
+                                            <GridSplitter Grid.Row="1"
+                                                          Grid.ColumnSpan="2"
+                                                          Height="3"
+                                                          HorizontalAlignment="Stretch"
+                                                          VerticalAlignment="Center"
+                                                          Background="Transparent"
+                                                          ResizeDirection="Rows" />
+                                            <GroupBox Grid.Row="2"
+                                                      HorizontalAlignment="Stretch"
+                                                      VerticalAlignment="Stretch"
+                                                      FontSize="13"
+                                                      Header="Script Description">
+                                                <Grid>
+
+                                                    <TextBox Name="scriptDescriptionTxb"
+                                                             HorizontalAlignment="Stretch"
+                                                             VerticalAlignment="Stretch"
+                                                             AcceptsReturn="True"
+                                                             Text="{Binding ScriptDescription,
+                                                                            UpdateSourceTrigger=PropertyChanged}"
+                                                             TextWrapping="Wrap"
+                                                             VerticalScrollBarVisibility="Visible" />
+                                                </Grid>
+                                            </GroupBox>
+                                        </Grid>
+                                        <GridSplitter Grid.Column="1"
+                                                      Width="3"
+                                                      HorizontalAlignment="Center"
+                                                      VerticalAlignment="Stretch"
+                                                      Background="Transparent"
+                                                      ResizeDirection="Columns" />
+                                        <Grid Grid.Column="2">
+                                            <Grid.RowDefinitions>
+                                                <RowDefinition Height="535*" />
+                                                <RowDefinition Height="4*" />
+                                                <RowDefinition Height="122*" />
+                                            </Grid.RowDefinitions>
+                                            <GridSplitter Grid.Row="1"
+                                                          Grid.ColumnSpan="2"
+                                                          Height="3"
+                                                          HorizontalAlignment="Stretch"
+                                                          VerticalAlignment="Center"
+                                                          Background="Transparent"
+                                                          ResizeDirection="Rows" />
+                                            <GroupBox Grid.Row="2"
+                                                      HorizontalAlignment="Stretch"
+                                                      VerticalAlignment="Stretch"
+                                                      FontSize="13"
+                                                      Header="Test Description">
+                                                <Grid>
+                                                    <TextBox Name="testDescriptionTxb"
+                                                             HorizontalAlignment="Stretch"
+                                                             VerticalAlignment="Stretch"
+                                                             AcceptsReturn="True"
+                                                             Text="{Binding TestDescription,
+                                                                            UpdateSourceTrigger=PropertyChanged}"
+                                                             TextWrapping="Wrap"
+                                                             VerticalScrollBarVisibility="Visible" />
+                                                </Grid>
+                                            </GroupBox>
+                                            <GroupBox HorizontalAlignment="Stretch"
+                                                      VerticalAlignment="Stretch"
+                                                      Header="{Binding SelectedTestNameGrp,
+                                                                       UpdateSourceTrigger=PropertyChanged}">
+                                                <DataGrid Name="testDataGrid"
+                                                          AlternatingRowBackground="#FFEAF0F8"
+                                                          AutoGenerateColumns="False"
+                                                          BorderThickness="1"
+                                                          CanUserSortColumns="False"
+                                                          FontSize="14"
+                                                          ItemsSource="{Binding TestEntitiesList}"
+                                                          LoadingRow="testDataGrid_LoadingRow"
+                                                          SelectedIndex="{Binding SelectedTestEntitiesIndex}"
+                                                          SelectedValue="{Binding SelectedTestEntity}"
+                                                          SelectionChanged="DataGrid_SelectionChanged">
+                                                    <DataGrid.ContextMenu>
+                                                        <ContextMenu>
+                                                            <MenuItem Command="{Binding SetToolBarAction}"
+                                                                      CommandParameter="UpdateTest"
+                                                                      Header="Save Test">
+                                                                <MenuItem.Icon>
+                                                                    <Image Width="20"
+                                                                           Height="20"
+                                                                           Source="Images\Save-Script.png" />
+                                                                </MenuItem.Icon>
+                                                            </MenuItem>
+
+                                                            <MenuItem Command="{Binding SetToolBarAction}"
+                                                                      CommandParameter="InvertselectScripts"
+                                                                      Header="Invert select">
+                                                                <MenuItem.Icon>
+                                                                    <Image Width="20"
+                                                                           Height="20"
+                                                                           Source="Images\refresh_switch.png" />
+                                                                </MenuItem.Icon>
+                                                            </MenuItem>
+                                                            <MenuItem Command="{Binding SetToolBarAction}"
+                                                                      CommandParameter="SelectAllScripts"
+                                                                      Header="Select All">
+                                                                <MenuItem.Icon>
+                                                                    <Image Width="20"
+                                                                           Height="20"
+                                                                           Source="Images\Check-icon.png" />
+                                                                </MenuItem.Icon>
+                                                            </MenuItem>
+
+                                                            <MenuItem Command="{Binding SetToolBarAction}"
+                                                                      CommandParameter="AddToSuite"
+                                                                      Header="Add To Suite">
+                                                                <MenuItem.Icon>
+                                                                    <Image Width="20"
+                                                                           Height="20"
+                                                                           Source="Images\Plus-icon.png" />
+                                                                </MenuItem.Icon>
+                                                            </MenuItem>
+                                                        </ContextMenu>
+                                                    </DataGrid.ContextMenu>
+
+                                                    <DataGrid.ItemContainerStyle>
+                                                        <Style TargetType="{x:Type DataGridRow}">
+                                                            <Setter Property="AllowDrop" Value="True" />
+                                                        </Style>
+                                                    </DataGrid.ItemContainerStyle>
+
+                                                    <DataGrid.Resources>
+                                                        <Style TargetType="{x:Type DataGridCell}">
+                                                            <EventSetter Event="PreviewMouseLeftButtonDown" Handler="DataGridCell_PreviewMouseLeftButtonDown" />
+                                                        </Style>
+                                                    </DataGrid.Resources>
+                                                    <DataGrid.Columns>
+                                                        <DataGridCheckBoxColumn Width="55"
+                                                                                Binding="{Binding Enable,
+                                                                                                  UpdateSourceTrigger=PropertyChanged}"
+                                                                                Header="Enable" />
+                                                        <DataGridTextColumn Width="150"
+                                                                            Binding="{Binding Name,
+                                                                                              UpdateSourceTrigger=PropertyChanged}"
+                                                                            Header="Script Name"
+                                                                            IsReadOnly="True" />
+                                                        <DataGridTextColumn Width="250"
+                                                                            Binding="{Binding Params,
+                                                                                              UpdateSourceTrigger=PropertyChanged}"
+                                                                            Header="Params" />
+                                                        <DataGridTextColumn Width="250"
+                                                                            Binding="{Binding Comment,
+                                                                                              UpdateSourceTrigger=PropertyChanged}"
+                                                                            Header="Comment" />
+                                                    </DataGrid.Columns>
+                                                </DataGrid>
+                                            </GroupBox>
+                                        </Grid>
+                                    </Grid>
+                                </xcad:LayoutDocument>
+
+                                <xcad:LayoutDocument Title="Execution Status"
+                                                     ContentId="ExecutionStatus"
+                                                     IconSource="/Images/Actions-system-run-icon.png">
+                                    <Grid>
+                                        <Grid.RowDefinitions>
+                                            <RowDefinition Height="42" />
+                                            <RowDefinition Height="*" />
+                                        </Grid.RowDefinitions>
+                                        <StackPanel Height="42" Margin="0,2,0,0">
+                                            <Grid>
+                                                <Grid.ColumnDefinitions>
+                                                    <ColumnDefinition />
+                                                </Grid.ColumnDefinitions>
+                                                <Grid.RowDefinitions>
+                                                    <RowDefinition />
+                                                    <RowDefinition />
+                                                </Grid.RowDefinitions>
+                                                <StackPanel Grid.Row="0"
+                                                            Margin="5,0,0,0"
+                                                            Orientation="Horizontal">
+                                                    <TextBlock Margin="0,0,6,0" Text="Passed Cycles:" />
+                                                    <TextBox Width="50"
+                                                             Height="20"
+                                                             IsReadOnly="True"
+                                                             Text="{Binding Path=ActivatedCycles,
+                                                                            Mode=OneWay,
+                                                                            UpdateSourceTrigger=PropertyChanged}" />
+                                                    <TextBlock Margin="5,0,3,0" Text="Active Suite Name:" />
+                                                    <TextBox Width="400"
+                                                             Height="20"
+                                                             Margin="0,0,7,0"
+                                                             IsReadOnly="True"
+                                                             Text="{Binding Path=ActiveSuiteName,
+                                                                            Mode=OneWay,
+                                                                            UpdateSourceTrigger=PropertyChanged}" />
+                                                    <CheckBox Name="autoScrollChk"
+                                                              Click="autoScrollChk_Click"
+                                                              Content="Auto Scroll"
+                                                              IsChecked="True" />
+                                                </StackPanel>
+
+                                                <StackPanel Grid.Row="1"
+                                                            Margin="5,0,0,0"
+                                                            Orientation="Horizontal">
+                                                    <TextBlock Margin="0,0,3,0" Text="Suite Progress:" />
+                                                    <TextBox Width="50"
+                                                             Height="20"
+                                                             IsReadOnly="True"
+                                                             Text="{Binding Path=Percentage,
+                                                                            Mode=OneWay,
+                                                                            UpdateSourceTrigger=PropertyChanged}" />
+                                                    <TextBlock Margin="5,0,8,0" Text="Active Test Name:" />
+                                                    <TextBox Width="400"
+                                                             Height="20"
+                                                             IsReadOnly="True"
+                                                             Text="{Binding Path=ActiveTestName,
+                                                                            Mode=OneWay,
+                                                                            UpdateSourceTrigger=PropertyChanged}" />
+
+                                                    <TextBlock Margin="5,0,8,0" Text="Active Step Info:" />
+                                                    <TextBox Width="200"
+                                                             Height="20"
+                                                             IsReadOnly="True"
+                                                             Text="{Binding Path=ActiveStepInfo,
+                                                                            Mode=OneWay,
+                                                                            UpdateSourceTrigger=PropertyChanged}" />
+                                                </StackPanel>
+                                            </Grid>
+                                        </StackPanel>
+
+                                        <DataGrid Name="executionDatagrid"
+                                                  Grid.Row="1"
+                                                  Margin="0,5,0,5"
+                                                  AlternatingRowBackground="#FFEAF0F8"
+                                                  AutoGenerateColumns="False"
+                                                  BorderThickness="1"
+                                                  CanUserSortColumns="False"
+                                                  FontSize="14"
+                                                  ItemsSource="{Binding ClientMessages,
+                                                                        UpdateSourceTrigger=PropertyChanged}"
+                                                  local:DesignerViewModel.DataGrid="{Binding ElementName=executionDatagrid}">
+                                            <DataGrid.Columns>
+                                                <DataGridTextColumn Width="50"
+                                                                    Binding="{Binding Index,
+                                                                                      UpdateSourceTrigger=PropertyChanged}"
+                                                                    Header="Index"
+                                                                    IsReadOnly="True" />
+                                                <DataGridTextColumn Width="200"
+                                                                    Binding="{Binding Time,
+                                                                                      UpdateSourceTrigger=PropertyChanged}"
+                                                                    Header="Time"
+                                                                    IsReadOnly="True" />
+                                                <DataGridTextColumn Width="730"
+                                                                    Binding="{Binding Info,
+                                                                                      UpdateSourceTrigger=PropertyChanged}"
+                                                                    Header="Info"
+                                                                    IsReadOnly="True" />
+                                                <!--  <DataGridTextColumn Binding="{Binding Status, UpdateSourceTrigger=PropertyChanged}" Header="status" IsReadOnly="True" Width="730" />  -->
+
+                                                <DataGridTemplateColumn Header="Status">
+                                                    <DataGridTemplateColumn.CellTemplate>
+                                                        <DataTemplate>
+                                                            <Image Name="statusImage"
+                                                                   Width="18"
+                                                                   Height="18" />
+                                                            <DataTemplate.Triggers>
+                                                                <DataTrigger Binding="{Binding Status}" Value="Pass">
+                                                                    <Setter TargetName="statusImage" Property="Source" Value="Images\passPic.png" />
+                                                                </DataTrigger>
+                                                                <DataTrigger Binding="{Binding Status}" Value="Fail">
+                                                                    <Setter TargetName="statusImage" Property="Source" Value="Images\failPic.png" />
+                                                                </DataTrigger>
+                                                                <DataTrigger Binding="{Binding Status}" Value="Info">
+                                                                    <Setter TargetName="statusImage" Property="Source" Value="Images\infoPic.png" />
+                                                                </DataTrigger>
+                                                                <DataTrigger Binding="{Binding Status}" Value="Skipped">
+                                                                    <Setter TargetName="statusImage" Property="Source" Value="Images\skipPic.png" />
+                                                                </DataTrigger>
+                                                                <DataTrigger Binding="{Binding Status}" Value="Exception">
+                                                                    <Setter TargetName="statusImage" Property="Source" Value="Images\Hazard.png" />
+                                                                </DataTrigger>
+                                                            </DataTemplate.Triggers>
+                                                        </DataTemplate>
+                                                    </DataGridTemplateColumn.CellTemplate>
+                                                </DataGridTemplateColumn>
+                                            </DataGrid.Columns>
+                                        </DataGrid>
+                                    </Grid>
+                                </xcad:LayoutDocument>
+
+                                <xcad:LayoutDocument Title="Variables"
+                                                     ContentId="Variables"
+                                                     IconSource="/Images/Hash32.jpg">
+                                    <Grid>
+                                        <Grid.RowDefinitions>
+                                            <RowDefinition Height="30" />
+                                            <RowDefinition Height="478" />
+                                            <RowDefinition Height="8" />
+                                            <RowDefinition Height="*" />
+                                        </Grid.RowDefinitions>
+                                        <ToolBar Grid.Row="0">
+                                            <Button Width="30"
+                                                    Height="30"
+                                                    Command="{Binding SetToolBarAction}"
+                                                    CommandParameter="GetVarList">
+                                                <Image Source="Images\Sync-Green-icon.png" />
+                                            </Button>
+                                        </ToolBar>
+
+                                        <DataGrid Name="variablesDataGrid"
+                                                  Grid.Row="1"
+                                                  Margin="0,9,0,1"
+                                                  AlternatingRowBackground="#FFEAF0F8"
+                                                  AutoGenerateColumns="False"
+                                                  BorderThickness="1"
+                                                  CanUserReorderColumns="True"
+                                                  CanUserResizeColumns="True"
+                                                  CanUserResizeRows="False"
+                                                  CanUserSortColumns="True"
+                                                  FontSize="14"
+                                                  ItemsSource="{Binding VariableList}"
+                                                  MouseDoubleClick="variablesDataGrid_MouseDoubleClick"
+                                                  SelectedValue="{Binding SelectedVariable}">
+                                            <DataGrid.Columns>
+                                                <DataGridTextColumn Width="300"
+                                                                    Binding="{Binding .,
+                                                                                      UpdateSourceTrigger=PropertyChanged}"
+                                                                    Header="Variable Name"
+                                                                    IsReadOnly="True" />
+                                            </DataGrid.Columns>
+                                        </DataGrid>
+                                        <GridSplitter Grid.Row="2"
+                                                      Grid.Column="1"
+                                                      HorizontalAlignment="Stretch"
+                                                      VerticalAlignment="Stretch"
+                                                      Background="Transparent"
+                                                      ResizeDirection="Rows" />
+
+                                        <TextBox Name="varDataTxb"
+                                                 Grid.Row="3"
+                                                 HorizontalScrollBarVisibility="Auto"
+                                                 TextWrapping="WrapWithOverflow"
+                                                 VerticalScrollBarVisibility="Auto" />
+                                    </Grid>
+                                </xcad:LayoutDocument>
+                            </xcad:LayoutDocumentPane>
+                        </xcad:LayoutDocumentPaneGroup>
+                    </xcad:LayoutPanel>
+                </xcad:LayoutRoot>
+            </xcad:DockingManager>
+
+            <!--
+                <Grid HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
+                <Grid.RowDefinitions>
+                <RowDefinition Height="300*" />
+                </Grid.RowDefinitions>
+                </Grid>
+            -->
+        </Grid>
+        <StatusBar Name="statusBar1"
+                   Grid.Row="2"
+                   HorizontalAlignment="Stretch"
+                   VerticalAlignment="Stretch">
+            <Image Height="20" Source="{Binding ConnectionIcon, UpdateSourceTrigger=PropertyChanged}" />
+            <TextBlock FontStyle="Normal"
+                       FontWeight="Bold"
+                       Foreground="#FFD11313"
+                       Text="{Binding MessageInfo}" />
+        </StatusBar>
+    </Grid>
+</Window>

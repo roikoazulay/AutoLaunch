@@ -1,0 +1,17 @@
+Auto Launch Release Notes
+
+version 1.0.0.1 - 3/10/2012
+
+1.Adding support for RS232 Automatic log file save.
+2.Adding support for SSH Automatic log file save.
+3.Improvements for automation server CPU usage
+
+
+version 1.0.0.2 - 3/10/2012
+
+1.Adding Server Activate button on the client
+2.Adding support single click on grid view
+3.Adding support for variables on SSH,SFTP
+4.Adding Join string action in Text Operation
+5.Adding support for WGT RS232 communication 
+6.Adding Table Actions - import/Export CSV etc...

@@ -1,0 +1,660 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{77FA75F6-CC63-4A1B-B745-A18F3243EBBA}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>AutomationClient</RootNamespace>
+    <AssemblyName>AutomationClient</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <WarningLevel>4</WarningLevel>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>Apps-preferences-desktop-launch-feedback.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.mshtml, Version=7.0.3300.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Microsoft.Windows.Shell, Version=3.5.41019.1, Culture=neutral, PublicKeyToken=31bf3856ad364e35" />
+    <Reference Include="Odyssey, Version=1.3.16.22071, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>.\Odyssey.dll</HintPath>
+    </Reference>
+    <Reference Include="RibbonControlsLibrary, Version=4.0.0.11019, Culture=neutral, PublicKeyToken=31bf3856ad364e35" />
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Xaml">
+      <RequiredTargetFramework>4.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="WindowsBase" />
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="Xceed.Wpf.AvalonDock">
+      <HintPath>..\..\..\avalon\MvvmTemplate1\MvvmTemplate1\ExternalDlls\Xceed.Wpf.AvalonDock.dll</HintPath>
+    </Reference>
+    <Reference Include="Xceed.Wpf.AvalonDock.Themes.Aero">
+      <HintPath>..\..\..\avalon\MvvmTemplate1\MvvmTemplate1\ExternalDlls\Xceed.Wpf.AvalonDock.Themes.Aero.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="App.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+    <Compile Include="AboutWin.xaml.cs">
+      <DependentUpon>AboutWin.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Class1.cs" />
+    <Compile Include="General\Folder.cs" />
+    <Compile Include="General\SaveData.cs" />
+    <Compile Include="General\ModuleHelper.cs" />
+    <Compile Include="Models\GeneralViewModel.cs" />
+    <Compile Include="Models\IAutomationWindow.cs" />
+    <Compile Include="Models\IToolBox.cs" />
+    <Compile Include="Models\DesignerViewModel.cs" />
+    <Compile Include="Models\Memento\Originator.cs" />
+    <Compile Include="Models\ObservableCollectionExt.cs" />
+    <Compile Include="Models\RadioBoolToIntConverter.cs" />
+    <Compile Include="Models\ViewModelBase.cs" />
+    <Compile Include="SerachUserControl.xaml.cs">
+      <DependentUpon>SerachUserControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="SettingsWindow.xaml.cs">
+      <DependentUpon>SettingsWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\ConditionView.xaml.cs">
+      <DependentUpon>ConditionView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\AutoItUIView.xaml.cs">
+      <DependentUpon>AutoItUIView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\ServerComView.xaml.cs">
+      <DependentUpon>ServerComView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\SwitchView.xaml.cs">
+      <DependentUpon>SwitchView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\DictionaryActionView.xaml.cs">
+      <DependentUpon>DictionaryActionView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\ListActionView.xaml.cs">
+      <DependentUpon>ListActionView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\EmailView.xaml.cs">
+      <DependentUpon>EmailView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\SystemView.xaml.cs">
+      <DependentUpon>SystemView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\FileView.xaml.cs">
+      <DependentUpon>FileView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\MotorControlerView.xaml.cs">
+      <DependentUpon>MotorControlerView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Hr80PSView.xaml.cs">
+      <DependentUpon>Hr80PSView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\PingView.xaml.cs">
+      <DependentUpon>PingView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\ScriptView.xaml.cs">
+      <DependentUpon>ScriptView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\RelayControlView.xaml.cs">
+      <DependentUpon>RelayControlView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\MessageView.xaml.cs">
+      <DependentUpon>MessageView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Simulators\WayneSimView.xaml.cs">
+      <DependentUpon>WayneSimView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\TableView.xaml.cs">
+      <DependentUpon>TableView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\DateTimeView.xaml.cs">
+      <DependentUpon>DateTimeView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\SqlitView.xaml.cs">
+      <DependentUpon>SqlitView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\SftpView.xaml.cs">
+      <DependentUpon>SftpView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\TelnetView.xaml.cs">
+      <DependentUpon>TelnetView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\SshView.xaml.cs">
+      <DependentUpon>SshView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\TimersView.xaml.cs">
+      <DependentUpon>TimersView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Rs232View.xaml.cs">
+      <DependentUpon>Rs232View.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\LableView.xaml.cs">
+      <DependentUpon>LableView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\TextManipulationView.xaml.cs">
+      <DependentUpon>TextManipulationView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\VariableView.xaml.cs">
+      <DependentUpon>VariableView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\RunProgramView.xaml.cs">
+      <DependentUpon>RunProgramView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\SleepView.xaml.cs">
+      <DependentUpon>SleepView.xaml</DependentUpon>
+    </Compile>
+    <Page Include="AboutWin.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Designer.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Compile Include="App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="General\HelperClass.cs" />
+    <Compile Include="General\RelayCommand.cs" />
+    <Compile Include="Designer.xaml.cs">
+      <DependentUpon>Designer.xaml</DependentUpon>
+    </Compile>
+    <Page Include="SerachUserControl.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="SettingsWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\ConditionView.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Views\AutoItUIView.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Views\ServerComView.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Views\SwitchView.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Views\DictionaryActionView.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Views\ListActionView.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Views\EmailView.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Views\SystemView.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Views\FileView.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Views\MotorControlerView.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Views\Hr80PSView.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Views\PingView.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Views\ScriptView.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Views\RelayControlView.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Views\MessageView.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Views\Simulators\WayneSimView.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Views\TableView.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Views\DateTimeView.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Views\SqlitView.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Views\SftpView.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Views\TelnetView.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Views\SshView.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Views\TimersView.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Views\Rs232View.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Views\LableView.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Views\TextManipulationView.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Views\VariableView.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Views\RunProgramView.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Views\SleepView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <None Include="..\AutoLaunch.config">
+      <Link>AutoLaunch.config</Link>
+      <SubType>Designer</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="app.config" />
+    <None Include="ClassDiagram1.cd" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <AppDesigner Include="Properties\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\edit-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\newPic.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\Sign-Error-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\paste-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\Up-32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\down-32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\Clipboard-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\Clipboard-Paste-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\Text-Document-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\clock-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\Win-Command-Prompt-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\Apps-preferences-desktop-launch-feedback-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\AutomationServer\Auto Launch Server.csproj">
+      <Project>{E4793750-CF0A-444C-B6E9-0532479CCCD8}</Project>
+      <Name>Auto Launch Server</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Common\AutomationCommon.csproj">
+      <Project>{C8218CE4-3266-4101-A2B5-001159F902F5}</Project>
+      <Name>AutomationCommon</Name>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\Actions-dialog-close-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\Save-Script.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\Pen-Blue-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\save-Test.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\folder-open-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\ComplexObject.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\Plus-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\document.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Apps-preferences-desktop-launch-feedback.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\Play-1-Pressed-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\Actions-network-connect-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\Home-Server-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\failPic.png" />
+    <Resource Include="Images\passPic.png" />
+    <Resource Include="Images\infoPic.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\skipPic.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\stop-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\pause-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\play-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\Actions-view-calendar-list-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\Hazard.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\Help-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\numeric_field_icon.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\Text-File-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\FileHash.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\Bookmark-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\Document-Flow-Chart-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\RS232-Data-Logger_icon.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\Categories-preferences-system-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\Timer-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\Apps-utilities-terminal-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\Computer-Monitor-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\Filesystems-ftp-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\Chart-1-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\data-redo-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\Apps-preferences-system-time-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\Mimetype-vcalendar-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\cog-edit-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\Messages-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\Style-Switch-User-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\Copy-icon-step.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\Paste-icon-Step.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\tool-box-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\Button-Play-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\Sync-Green-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\folder-downloads-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\scuSIM_PS_MAINICON.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\math-add-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\Activity-Monitor-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\rsz_hr80ps.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\motor.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\file-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\Refresh-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\Check-icon.png" />
+    <Resource Include="Images\Delete-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\arrow-switch-left-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\refresh_switch.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\Actions-system-run-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\Undo-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\export-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\Edit-Cut-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\tool-box-icon1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\Apps-text-editor-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\Hash32.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\email-send-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\checklist-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\Dictionary-Mac-Book-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\Red-Ball-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\breakpoint.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\Switch-icon.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

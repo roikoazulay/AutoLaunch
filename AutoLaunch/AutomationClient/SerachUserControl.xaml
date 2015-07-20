@@ -1,0 +1,66 @@
+﻿<UserControl x:Class="AutomationClient.SerachUserControl"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             d:DesignHeight="150"
+             d:DesignWidth="300"
+             mc:Ignorable="d">
+
+    <GroupBox Header="Search">
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="41*" />
+                <RowDefinition Height="136*" />
+            </Grid.RowDefinitions>
+            <StackPanel Orientation="Horizontal">
+                <TextBox Name="searchTxb"
+                         Width="150"
+                         Height="25"
+                         Margin="5,0,5,0" />
+                <Button Name="clearBtn"
+                        Width="25"
+                        Height="25"
+                        Margin="0,0,3,0"
+                        Click="clearBtn_Click">
+                    <Image Source="/Images/newPic.png" />
+                </Button>
+                <Button Name="scriptSerachBtn"
+                        Width="25"
+                        Height="25"
+                        Click="scriptSerachBtn_Click">
+                    <Image Source="/Images/ComplexObject.png" />
+                </Button>
+                <Button Name="testSerachBtn"
+                        Width="25"
+                        Height="25"
+                        Click="testSerachBtn_Click">
+                    <Image Source="/Images/document.png" />
+                </Button>
+                <Button Name="suiteSerachBtn"
+                        Width="25"
+                        Height="25"
+                        Click="suiteSerachBtn_Click">
+                    <Image Source="/Images/Actions-view-calendar-list-icon.png" />
+                </Button>
+            </StackPanel>
+
+            <DataGrid Name="searchesDataGrid"
+                      Grid.Row="1"
+                      AutoGenerateColumns="False"
+                      CanUserAddRows="false"
+                      IsReadOnly="True"
+                      ItemsSource="{Binding FilteredList,
+                                            UpdateSourceTrigger=PropertyChanged}"
+                      MouseDoubleClick="searchesDataGrid_MouseDoubleClick"
+                      SelectedValue="{Binding SelectedFile}">
+
+                <DataGrid.Columns>
+                    <DataGridTextColumn Width="300"
+                                        Binding="{Binding}"
+                                        Header="Name" />
+                </DataGrid.Columns>
+            </DataGrid>
+        </Grid>
+    </GroupBox>
+</UserControl>

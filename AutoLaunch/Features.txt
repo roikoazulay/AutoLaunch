@@ -1,0 +1,29 @@
+
+ 
+
+ToDo
+
+ 
+
+
+
+	"-s:C:\Auto Launch\Suites\status.tsu" -c:true -o:Continue -l:1
+
+	"-s:C:\Auto Launch\Suites\stdelay.tsu" -c:true -o:Continue -l:1
+
+
+
+	When you define your custom configuration section, set its configSource to an external file (whatever.config). This external file should be added to the SOLUTION and not the project. It will appear under "Solution Items". In each project, Add an Existing File, browse to whatever.config, click the dropdown on the Add button and select "Add as Link."
+
+Whatever.config will be a single file you can edit under Solution Items, and it gets copied into each application at compile time.
+
+
+# region Tray Icon notify
+ System.Windows.Forms.NotifyIcon ni = new System.Windows.Forms.NotifyIcon();
+            ni.Icon = new System.Drawing.Icon(@"D:\Dev\web\WpfApplication1\WpfApplication1\Images\Apps-preferences-desktop-launch-feedback.ico");
+            ni.Visible = true;
+            ni.ShowBalloonTip(2, "Importan Msg", "this is the message", System.Windows.Forms.ToolTipIcon.Info);
+#endregion
+
+
+"-s:C:\AutoLaunch\Suites\SiteOmatInstallationSuite.tsu" -c:false -o:Stop -l:1

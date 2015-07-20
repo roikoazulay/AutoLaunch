@@ -1,0 +1,193 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{E4793750-CF0A-444C-B6E9-0532479CCCD8}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>AutomationServer</RootNamespace>
+    <AssemblyName>AutomationServer</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>Home-Server.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DiffieHellman">
+      <HintPath>..\ExternalDlls\DiffieHellman.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Windows.Shell">
+      <HintPath>..\ExternalDlls\Microsoft.Windows.Shell.dll</HintPath>
+    </Reference>
+    <Reference Include="Odyssey">
+      <HintPath>..\ExternalDlls\Odyssey.dll</HintPath>
+    </Reference>
+    <Reference Include="Org.Mentalis.Security">
+      <HintPath>..\ExternalDlls\Org.Mentalis.Security.dll</HintPath>
+    </Reference>
+    <Reference Include="RibbonControlsLibrary">
+      <HintPath>..\ExternalDlls\RibbonControlsLibrary.dll</HintPath>
+    </Reference>
+    <Reference Include="Routrek.Granados">
+      <HintPath>..\ExternalDlls\Routrek.Granados.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Tamir.sharpSsh">
+      <HintPath>..\ExternalDlls\Tamir.sharpSsh.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Actions\ActionBase.cs" />
+    <Compile Include="Actions\AutoItUiAction.cs" />
+    <Compile Include="Actions\ConditionAction.cs" />
+    <Compile Include="Actions\SwitchAction.cs" />
+    <Compile Include="Actions\EnvironmentVariable.cs" />
+    <Compile Include="Actions\DictionaryAction.cs" />
+    <Compile Include="Actions\ListAction.cs" />
+    <Compile Include="Actions\EmailAction.cs" />
+    <Compile Include="Actions\SystemAction.cs" />
+    <Compile Include="Actions\FileAction.cs" />
+    <Compile Include="Actions\PingAction.cs" />
+    <Compile Include="Actions\RS232\MotorController.cs" />
+    <Compile Include="Actions\ScriptAction.cs" />
+    <Compile Include="Actions\GuiAutomation\WaynPump.cs" />
+    <Compile Include="Actions\Lable\Copy of LableAction.cs" />
+    <Compile Include="Actions\RS232\RelayControlAction.cs" />
+    <Compile Include="Actions\MessageAction.cs" />
+    <Compile Include="Actions\TableAction.cs" />
+    <Compile Include="Actions\DateTimeAction.cs" />
+    <Compile Include="Actions\SqliteAction.cs" />
+    <Compile Include="Actions\Lable\LableAction.cs" />
+    <Compile Include="Actions\SSH\SshAction.cs" />
+    <Compile Include="Actions\SSH\SshObj.cs" />
+    <Compile Include="Actions\SftpAction.cs" />
+    <Compile Include="Actions\Telent\ServerComAction.cs" />
+    <Compile Include="Actions\Telent\Horison80PowerSupplyAction.cs" />
+    <Compile Include="Actions\Telent\TelentAction.cs" />
+    <Compile Include="Actions\Telent\TelnetObj.cs" />
+    <Compile Include="Actions\TimersAction.cs" />
+    <Compile Include="Actions\RS232\AbstractSerialCommunication.cs" />
+    <Compile Include="Actions\RS232\Rs232Action.cs" />
+    <Compile Include="Actions\RS232\Rs232Obj.cs" />
+    <Compile Include="Actions\TextManipulationAction.cs" />
+    <Compile Include="Actions\VariablesAction.cs" />
+    <Compile Include="Actions\RunProgram.cs" />
+    <Compile Include="Actions\SleepAction.cs" />
+    <Compile Include="AutomationManager.cs" />
+    <Compile Include="Modules\ActionFactory.cs" />
+    <Compile Include="Modules\AutoItGuiAutomationObj.cs" />
+    <Compile Include="Modules\Entities\TestSuiteEntity.cs" />
+    <Compile Include="Modules\Entities\TestSuite.cs" />
+    <Compile Include="Modules\FileHandler.cs" />
+    <Compile Include="Modules\Entities\ScriptObj.cs" />
+    <Compile Include="Modules\FlowHandler.cs" />
+    <Compile Include="Modules\Reports\HtmlReportGenerator.cs" />
+    <Compile Include="Modules\Reports\IReportGenerator.cs" />
+    <Compile Include="Modules\Entities\TestEntity.cs" />
+    <Compile Include="Modules\Entities\TestObj.cs" />
+    <Compile Include="Modules\Entities\StepEntity.cs" />
+    <Compile Include="Modules\Reports\ReportManager.cs" />
+    <Compile Include="Modules\ServerCommunication.cs" />
+    <Compile Include="Modules\SavedData.cs" />
+    <Compile Include="Modules\TcpListener.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="StartUp.cs" />
+    <Compile Include="Modules\ActionHandler.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\AutoLaunch.config">
+      <Link>AutoLaunch.config</Link>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="ClassDiagram1.cd" />
+    <None Include="ClassDiagram2.cd" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Common\AutomationCommon.csproj">
+      <Project>{C8218CE4-3266-4101-A2B5-001159F902F5}</Project>
+      <Name>AutomationCommon</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="AutoItX3.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="AutoItX3_x64.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Home-Server.ico" />
+    <Content Include="Instructions.txt" />
+    <None Include="Style.css" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="AutoItX3Lib">
+      <Guid>{F8937E53-D444-4E71-9275-35B64210CC3B}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Actions\Selenium\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

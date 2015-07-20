@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <StartArguments>"-s:temp.tsu" -c:true -o:Continue -l:1 -r:1"</StartArguments>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <StartArguments>-s:"C:\Auto Launch\Suites\varSuite.tsu" -c:False -l:1 -o:Stop</StartArguments>
+  </PropertyGroup>
+</Project>

@@ -1,0 +1,5 @@
+F:\backup\Develop\AutomationServer4\AutomationServer\Common\bin\Release\Common.dll
+F:\backup\Develop\AutomationServer4\AutomationServer\Common\bin\Release\Common.pdb
+F:\backup\Develop\AutomationServer4\AutomationServer\Common\obj\Release\ResolveAssemblyReference.cache
+F:\backup\Develop\AutomationServer4\AutomationServer\Common\obj\Release\Common.dll
+F:\backup\Develop\AutomationServer4\AutomationServer\Common\obj\Release\Common.pdb

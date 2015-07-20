@@ -1,0 +1,85 @@
+﻿<Window x:Class="AutomationClient.SettingsWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Settings"
+        Width="465"
+        Height="262"
+        Icon="/Images/Categories-preferences-system-icon.png"
+        ResizeMode="NoResize">
+    <StackPanel Width="441"
+                Height="226"
+                Background="WhiteSmoke">
+
+        <StackPanel>
+            <ToolBar Height="41">
+                <Button Name="saveBtn" Click="saveBtn_Click">
+                    <Image Height="25" Source="/Images/Save-Script.png" />
+                </Button>
+            </ToolBar>
+            <GroupBox Header="General">
+                <StackPanel>
+                    <StackPanel Orientation="Horizontal">
+                        <Label Margin="6,0,0,0" Content="Client/Server Port:" />
+                        <TextBox Name="portTxb"
+                                 Width="80"
+                                 Height="20"
+                                 Text="2090" />
+                        <Label Margin="6,0,0,0" Content="Server IP:" />
+                        <TextBox Name="ServerIpTxb"
+                                 Width="168"
+                                 Height="20" />
+                    </StackPanel>
+                    <StackPanel Orientation="Horizontal">
+                        <CheckBox Name="autoSaveChk"
+                                  Margin="9,6"
+                                  Content="Script Auto Save"
+                                  IsChecked="True" />
+                        <CheckBox Name="scriptShowDetailsChk"
+                                  Margin="9,6"
+                                  Content="Show Step Details"
+                                  IsChecked="True" />
+                    </StackPanel>
+                    <StackPanel Orientation="Horizontal">
+                        <Label Margin="6,0,0,0" Content="Startup Folder:" />
+                        <TextBox Name="startUpFolderTxb"
+                                 Width="300"
+                                 Height="23"
+                                 Text="C:\AutoLaunch" />
+                        <Button Name="statrupFolderBtn"
+                                Width="24"
+                                Height="24"
+                                Margin="6,0,0,0"
+                                Click="statrupFolderBtn_Click">
+                            <Image Source="/Images/folder-open-icon.png" />
+                        </Button>
+                    </StackPanel>
+                </StackPanel>
+            </GroupBox>
+        </StackPanel>
+
+        <GroupBox Height="77"
+                  Margin="2"
+                  FontStyle="Normal"
+                  Header="On Test Case Startup">
+            <StackPanel>
+                <CheckBox Name="clearAllVarsChk"
+                          Margin="2,6"
+                          Content="Clear All Variables"
+                          IsChecked="False" IsEnabled="False" />
+                <StackPanel Orientation="Horizontal">
+                    <Label Content="Global TearDown Script:" />
+                    <TextBox Name="TearDownTxb"
+                             Width="255"
+                             Height="23" />
+                    <Button Name="scriptSelectBtn"
+                            Width="24"
+                            Height="24"
+                            Margin="6,0,0,0"
+                            Click="scriptSelectBtn_Click">
+                        <Image Source="/Images/folder-open-icon.png" />
+                    </Button>
+                </StackPanel>
+            </StackPanel>
+        </GroupBox>
+    </StackPanel>
+</Window>

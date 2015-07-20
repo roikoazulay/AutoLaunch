@@ -1,0 +1,654 @@
+D:\Automation\Tools\AutoLaunch\AutomationServer\bin\Debug\AutoItX3.dll
+D:\Automation\Tools\AutoLaunch\AutomationServer\bin\Debug\AutoItX3_x64.dll
+D:\Automation\Tools\AutoLaunch\AutomationServer\bin\Debug\AutoLaunch.config
+D:\Automation\Tools\AutoLaunch\AutomationServer\bin\Debug\AutomationServer.exe.config
+D:\Automation\Tools\AutoLaunch\AutomationServer\bin\Debug\AutomationServer.exe
+D:\Automation\Tools\AutoLaunch\AutomationServer\bin\Debug\AutomationServer.pdb
+D:\Automation\Tools\AutoLaunch\AutomationServer\bin\Debug\AutomationCommon.dll
+D:\Automation\Tools\AutoLaunch\AutomationServer\bin\Debug\DiffieHellman.dll
+D:\Automation\Tools\AutoLaunch\AutomationServer\bin\Debug\Org.Mentalis.Security.dll
+D:\Automation\Tools\AutoLaunch\AutomationServer\bin\Debug\Routrek.granados.dll
+D:\Automation\Tools\AutoLaunch\AutomationServer\bin\Debug\AutomationCommon.pdb
+D:\Automation\Tools\AutoLaunch\AutomationServer\obj\x86\Debug\Auto Launch Server.csprojResolveAssemblyReference.cache
+D:\Automation\Tools\AutoLaunch\AutomationServer\obj\x86\Debug\Interop.AutoItX3Lib.dll
+D:\Automation\Tools\AutoLaunch\AutomationServer\obj\x86\Debug\Auto Launch Server.csproj.ResolveComReference.cache
+D:\Automation\Tools\AutoLaunch\AutomationServer\obj\x86\Debug\AutomationServer.Properties.Resources.resources
+D:\Automation\Tools\AutoLaunch\AutomationServer\obj\x86\Debug\Auto Launch Server.csproj.GenerateResource.Cache
+D:\Automation\Tools\AutoLaunch\AutomationServer\obj\x86\Debug\AutomationServer.exe
+D:\Automation\Tools\AutoLaunch\AutomationServer\obj\x86\Debug\AutomationServer.pdb
+D:\Automation\Tools\AutoLaunch_13_07_2013\AutoLaunch\AutomationServer\obj\x86\Debug\Auto Launch Server.csprojResolveAssemblyReference.cache
+D:\Automation\Tools\AutoLaunch_13_07_2013\AutoLaunch\AutomationServer\obj\x86\Debug\Interop.AutoItX3Lib.dll
+D:\Automation\Tools\AutoLaunch_13_07_2013\AutoLaunch\AutomationServer\obj\x86\Debug\Auto Launch Server.csproj.ResolveComReference.cache
+D:\Automation\Tools\AutoLaunch_13_07_2013\AutoLaunch\AutomationServer\obj\x86\Debug\AutomationServer.Properties.Resources.resources
+D:\Automation\Tools\AutoLaunch_13_07_2013\AutoLaunch\AutomationServer\obj\x86\Debug\Auto Launch Server.csproj.GenerateResource.Cache
+D:\Automation\Tools\AutoLaunch_13_07_2013\AutoLaunch\AutomationServer\bin\Debug\AutoItX3.dll
+D:\Automation\Tools\AutoLaunch_13_07_2013\AutoLaunch\AutomationServer\bin\Debug\AutoItX3_x64.dll
+D:\Automation\Tools\AutoLaunch_13_07_2013\AutoLaunch\AutomationServer\bin\Debug\AutoLaunch.config
+D:\Automation\Tools\AutoLaunch_13_07_2013\AutoLaunch\AutomationServer\bin\Debug\AutomationServer.exe.config
+D:\Automation\Tools\AutoLaunch_13_07_2013\AutoLaunch\AutomationServer\bin\Debug\AutomationServer.exe
+D:\Automation\Tools\AutoLaunch_13_07_2013\AutoLaunch\AutomationServer\bin\Debug\AutomationServer.pdb
+D:\Automation\Tools\AutoLaunch_13_07_2013\AutoLaunch\AutomationServer\bin\Debug\AutomationCommon.dll
+D:\Automation\Tools\AutoLaunch_13_07_2013\AutoLaunch\AutomationServer\bin\Debug\DiffieHellman.dll
+D:\Automation\Tools\AutoLaunch_13_07_2013\AutoLaunch\AutomationServer\bin\Debug\Microsoft.Windows.Shell.dll
+D:\Automation\Tools\AutoLaunch_13_07_2013\AutoLaunch\AutomationServer\bin\Debug\Odyssey.dll
+D:\Automation\Tools\AutoLaunch_13_07_2013\AutoLaunch\AutomationServer\bin\Debug\Org.Mentalis.Security.dll
+D:\Automation\Tools\AutoLaunch_13_07_2013\AutoLaunch\AutomationServer\bin\Debug\RibbonControlsLibrary.dll
+D:\Automation\Tools\AutoLaunch_13_07_2013\AutoLaunch\AutomationServer\bin\Debug\Routrek.Granados.dll
+D:\Automation\Tools\AutoLaunch_13_07_2013\AutoLaunch\AutomationServer\bin\Debug\Tamir.sharpSsh.dll
+D:\Automation\Tools\AutoLaunch_13_07_2013\AutoLaunch\AutomationServer\bin\Debug\AutomationCommon.pdb
+D:\Automation\Tools\AutoLaunch_13_07_2013\AutoLaunch\AutomationServer\obj\x86\Debug\AutomationServer.exe
+D:\Automation\Tools\AutoLaunch_13_07_2013\AutoLaunch\AutomationServer\obj\x86\Debug\AutomationServer.pdb
+D:\Automation\Tools\AutoLaunch_14_07_2013\AutoLaunch\AutomationServer\bin\Debug\AutoItX3.dll
+D:\Automation\Tools\AutoLaunch_14_07_2013\AutoLaunch\AutomationServer\bin\Debug\AutoItX3_x64.dll
+D:\Automation\Tools\AutoLaunch_14_07_2013\AutoLaunch\AutomationServer\bin\Debug\AutoLaunch.config
+D:\Automation\Tools\AutoLaunch_14_07_2013\AutoLaunch\AutomationServer\bin\Debug\AutomationServer.exe.config
+D:\Automation\Tools\AutoLaunch_14_07_2013\AutoLaunch\AutomationServer\bin\Debug\AutomationServer.exe
+D:\Automation\Tools\AutoLaunch_14_07_2013\AutoLaunch\AutomationServer\bin\Debug\AutomationServer.pdb
+D:\Automation\Tools\AutoLaunch_14_07_2013\AutoLaunch\AutomationServer\bin\Debug\AutomationCommon.dll
+D:\Automation\Tools\AutoLaunch_14_07_2013\AutoLaunch\AutomationServer\bin\Debug\DiffieHellman.dll
+D:\Automation\Tools\AutoLaunch_14_07_2013\AutoLaunch\AutomationServer\bin\Debug\Microsoft.Windows.Shell.dll
+D:\Automation\Tools\AutoLaunch_14_07_2013\AutoLaunch\AutomationServer\bin\Debug\Odyssey.dll
+D:\Automation\Tools\AutoLaunch_14_07_2013\AutoLaunch\AutomationServer\bin\Debug\Org.Mentalis.Security.dll
+D:\Automation\Tools\AutoLaunch_14_07_2013\AutoLaunch\AutomationServer\bin\Debug\RibbonControlsLibrary.dll
+D:\Automation\Tools\AutoLaunch_14_07_2013\AutoLaunch\AutomationServer\bin\Debug\Routrek.Granados.dll
+D:\Automation\Tools\AutoLaunch_14_07_2013\AutoLaunch\AutomationServer\bin\Debug\Tamir.sharpSsh.dll
+D:\Automation\Tools\AutoLaunch_14_07_2013\AutoLaunch\AutomationServer\bin\Debug\AutomationCommon.pdb
+D:\Automation\Tools\AutoLaunch_14_07_2013\AutoLaunch\AutomationServer\obj\x86\Debug\Auto Launch Server.csprojResolveAssemblyReference.cache
+D:\Automation\Tools\AutoLaunch_14_07_2013\AutoLaunch\AutomationServer\obj\x86\Debug\Interop.AutoItX3Lib.dll
+D:\Automation\Tools\AutoLaunch_14_07_2013\AutoLaunch\AutomationServer\obj\x86\Debug\Auto Launch Server.csproj.ResolveComReference.cache
+D:\Automation\Tools\AutoLaunch_14_07_2013\AutoLaunch\AutomationServer\obj\x86\Debug\AutomationServer.Properties.Resources.resources
+D:\Automation\Tools\AutoLaunch_14_07_2013\AutoLaunch\AutomationServer\obj\x86\Debug\Auto Launch Server.csproj.GenerateResource.Cache
+D:\Automation\Tools\AutoLaunch_14_07_2013\AutoLaunch\AutomationServer\obj\x86\Debug\AutomationServer.exe
+D:\Automation\Tools\AutoLaunch_14_07_2013\AutoLaunch\AutomationServer\obj\x86\Debug\AutomationServer.pdb
+D:\Automation\Tools\AutoLaunch_21_07_2013\AutoLaunch\AutomationServer\bin\Debug\AutoItX3.dll
+D:\Automation\Tools\AutoLaunch_21_07_2013\AutoLaunch\AutomationServer\bin\Debug\AutoItX3_x64.dll
+D:\Automation\Tools\AutoLaunch_21_07_2013\AutoLaunch\AutomationServer\bin\Debug\AutoLaunch.config
+D:\Automation\Tools\AutoLaunch_21_07_2013\AutoLaunch\AutomationServer\bin\Debug\AutomationServer.exe.config
+D:\Automation\Tools\AutoLaunch_21_07_2013\AutoLaunch\AutomationServer\bin\Debug\AutomationServer.exe
+D:\Automation\Tools\AutoLaunch_21_07_2013\AutoLaunch\AutomationServer\bin\Debug\AutomationServer.pdb
+D:\Automation\Tools\AutoLaunch_21_07_2013\AutoLaunch\AutomationServer\bin\Debug\AutomationCommon.dll
+D:\Automation\Tools\AutoLaunch_21_07_2013\AutoLaunch\AutomationServer\bin\Debug\DiffieHellman.dll
+D:\Automation\Tools\AutoLaunch_21_07_2013\AutoLaunch\AutomationServer\bin\Debug\Microsoft.Windows.Shell.dll
+D:\Automation\Tools\AutoLaunch_21_07_2013\AutoLaunch\AutomationServer\bin\Debug\Odyssey.dll
+D:\Automation\Tools\AutoLaunch_21_07_2013\AutoLaunch\AutomationServer\bin\Debug\Org.Mentalis.Security.dll
+D:\Automation\Tools\AutoLaunch_21_07_2013\AutoLaunch\AutomationServer\bin\Debug\RibbonControlsLibrary.dll
+D:\Automation\Tools\AutoLaunch_21_07_2013\AutoLaunch\AutomationServer\bin\Debug\Routrek.Granados.dll
+D:\Automation\Tools\AutoLaunch_21_07_2013\AutoLaunch\AutomationServer\bin\Debug\Tamir.sharpSsh.dll
+D:\Automation\Tools\AutoLaunch_21_07_2013\AutoLaunch\AutomationServer\bin\Debug\AutomationCommon.pdb
+D:\Automation\Tools\AutoLaunch_21_07_2013\AutoLaunch\AutomationServer\obj\x86\Debug\Auto Launch Server.csprojResolveAssemblyReference.cache
+D:\Automation\Tools\AutoLaunch_21_07_2013\AutoLaunch\AutomationServer\obj\x86\Debug\Interop.AutoItX3Lib.dll
+D:\Automation\Tools\AutoLaunch_21_07_2013\AutoLaunch\AutomationServer\obj\x86\Debug\Auto Launch Server.csproj.ResolveComReference.cache
+D:\Automation\Tools\AutoLaunch_21_07_2013\AutoLaunch\AutomationServer\obj\x86\Debug\AutomationServer.Properties.Resources.resources
+D:\Automation\Tools\AutoLaunch_21_07_2013\AutoLaunch\AutomationServer\obj\x86\Debug\Auto Launch Server.csproj.GenerateResource.Cache
+D:\Automation\Tools\AutoLaunch_21_07_2013\AutoLaunch\AutomationServer\obj\x86\Debug\AutomationServer.exe
+D:\Automation\Tools\AutoLaunch_21_07_2013\AutoLaunch\AutomationServer\obj\x86\Debug\AutomationServer.pdb
+D:\Automation\Tools\AutoLaunch_28_07_2013\AutoLaunch\AutomationServer\bin\Debug\AutoItX3.dll
+D:\Automation\Tools\AutoLaunch_28_07_2013\AutoLaunch\AutomationServer\bin\Debug\AutoItX3_x64.dll
+D:\Automation\Tools\AutoLaunch_28_07_2013\AutoLaunch\AutomationServer\bin\Debug\AutoLaunch.config
+D:\Automation\Tools\AutoLaunch_28_07_2013\AutoLaunch\AutomationServer\bin\Debug\AutomationServer.exe.config
+D:\Automation\Tools\AutoLaunch_28_07_2013\AutoLaunch\AutomationServer\bin\Debug\AutomationServer.exe
+D:\Automation\Tools\AutoLaunch_28_07_2013\AutoLaunch\AutomationServer\bin\Debug\AutomationServer.pdb
+D:\Automation\Tools\AutoLaunch_28_07_2013\AutoLaunch\AutomationServer\bin\Debug\AutomationCommon.dll
+D:\Automation\Tools\AutoLaunch_28_07_2013\AutoLaunch\AutomationServer\bin\Debug\DiffieHellman.dll
+D:\Automation\Tools\AutoLaunch_28_07_2013\AutoLaunch\AutomationServer\bin\Debug\Microsoft.Windows.Shell.dll
+D:\Automation\Tools\AutoLaunch_28_07_2013\AutoLaunch\AutomationServer\bin\Debug\Odyssey.dll
+D:\Automation\Tools\AutoLaunch_28_07_2013\AutoLaunch\AutomationServer\bin\Debug\Org.Mentalis.Security.dll
+D:\Automation\Tools\AutoLaunch_28_07_2013\AutoLaunch\AutomationServer\bin\Debug\RibbonControlsLibrary.dll
+D:\Automation\Tools\AutoLaunch_28_07_2013\AutoLaunch\AutomationServer\bin\Debug\Routrek.Granados.dll
+D:\Automation\Tools\AutoLaunch_28_07_2013\AutoLaunch\AutomationServer\bin\Debug\Tamir.sharpSsh.dll
+D:\Automation\Tools\AutoLaunch_28_07_2013\AutoLaunch\AutomationServer\bin\Debug\AutomationCommon.pdb
+D:\Automation\Tools\AutoLaunch_28_07_2013\AutoLaunch\AutomationServer\obj\x86\Debug\Auto Launch Server.csprojResolveAssemblyReference.cache
+D:\Automation\Tools\AutoLaunch_28_07_2013\AutoLaunch\AutomationServer\obj\x86\Debug\Interop.AutoItX3Lib.dll
+D:\Automation\Tools\AutoLaunch_28_07_2013\AutoLaunch\AutomationServer\obj\x86\Debug\Auto Launch Server.csproj.ResolveComReference.cache
+D:\Automation\Tools\AutoLaunch_28_07_2013\AutoLaunch\AutomationServer\obj\x86\Debug\AutomationServer.Properties.Resources.resources
+D:\Automation\Tools\AutoLaunch_28_07_2013\AutoLaunch\AutomationServer\obj\x86\Debug\Auto Launch Server.csproj.GenerateResource.Cache
+D:\Automation\Tools\AutoLaunch_28_07_2013\AutoLaunch\AutomationServer\obj\x86\Debug\AutomationServer.exe
+D:\Automation\Tools\AutoLaunch_28_07_2013\AutoLaunch\AutomationServer\obj\x86\Debug\AutomationServer.pdb
+D:\Automation\Tools\AutoLaunch_5_08_2013\AutoLaunch\AutomationServer\bin\Debug\AutoItX3.dll
+D:\Automation\Tools\AutoLaunch_5_08_2013\AutoLaunch\AutomationServer\bin\Debug\AutoItX3_x64.dll
+D:\Automation\Tools\AutoLaunch_5_08_2013\AutoLaunch\AutomationServer\bin\Debug\AutoLaunch.config
+D:\Automation\Tools\AutoLaunch_5_08_2013\AutoLaunch\AutomationServer\bin\Debug\AutomationServer.exe.config
+D:\Automation\Tools\AutoLaunch_5_08_2013\AutoLaunch\AutomationServer\bin\Debug\AutomationServer.exe
+D:\Automation\Tools\AutoLaunch_5_08_2013\AutoLaunch\AutomationServer\bin\Debug\AutomationServer.pdb
+D:\Automation\Tools\AutoLaunch_5_08_2013\AutoLaunch\AutomationServer\bin\Debug\AutomationCommon.dll
+D:\Automation\Tools\AutoLaunch_5_08_2013\AutoLaunch\AutomationServer\bin\Debug\DiffieHellman.dll
+D:\Automation\Tools\AutoLaunch_5_08_2013\AutoLaunch\AutomationServer\bin\Debug\Microsoft.Windows.Shell.dll
+D:\Automation\Tools\AutoLaunch_5_08_2013\AutoLaunch\AutomationServer\bin\Debug\Odyssey.dll
+D:\Automation\Tools\AutoLaunch_5_08_2013\AutoLaunch\AutomationServer\bin\Debug\Org.Mentalis.Security.dll
+D:\Automation\Tools\AutoLaunch_5_08_2013\AutoLaunch\AutomationServer\bin\Debug\RibbonControlsLibrary.dll
+D:\Automation\Tools\AutoLaunch_5_08_2013\AutoLaunch\AutomationServer\bin\Debug\Routrek.Granados.dll
+D:\Automation\Tools\AutoLaunch_5_08_2013\AutoLaunch\AutomationServer\bin\Debug\Tamir.sharpSsh.dll
+D:\Automation\Tools\AutoLaunch_5_08_2013\AutoLaunch\AutomationServer\bin\Debug\AutomationCommon.pdb
+D:\Automation\Tools\AutoLaunch_5_08_2013\AutoLaunch\AutomationServer\obj\x86\Debug\Auto Launch Server.csprojResolveAssemblyReference.cache
+D:\Automation\Tools\AutoLaunch_5_08_2013\AutoLaunch\AutomationServer\obj\x86\Debug\Interop.AutoItX3Lib.dll
+D:\Automation\Tools\AutoLaunch_5_08_2013\AutoLaunch\AutomationServer\obj\x86\Debug\Auto Launch Server.csproj.ResolveComReference.cache
+D:\Automation\Tools\AutoLaunch_5_08_2013\AutoLaunch\AutomationServer\obj\x86\Debug\AutomationServer.Properties.Resources.resources
+D:\Automation\Tools\AutoLaunch_5_08_2013\AutoLaunch\AutomationServer\obj\x86\Debug\Auto Launch Server.csproj.GenerateResource.Cache
+D:\Automation\Tools\AutoLaunch_5_08_2013\AutoLaunch\AutomationServer\obj\x86\Debug\AutomationServer.exe
+D:\Automation\Tools\AutoLaunch_5_08_2013\AutoLaunch\AutomationServer\obj\x86\Debug\AutomationServer.pdb
+D:\Automation\Tools\AutoLaunch_13_08_2013\AutoLaunch\AutomationServer\bin\Debug\AutomationServer.exe.config
+D:\Automation\Tools\AutoLaunch_13_08_2013\AutoLaunch\AutomationServer\obj\x86\Debug\Interop.AutoItX3Lib.dll
+D:\Automation\Tools\AutoLaunch_13_08_2013\AutoLaunch\AutomationServer\obj\x86\Debug\Auto Launch Server.csproj.ResolveComReference.cache
+D:\Automation\Tools\AutoLaunch_13_08_2013\AutoLaunch\AutomationServer\obj\x86\Debug\AutomationServer.exe
+D:\Automation\Tools\AutoLaunch_13_08_2013\AutoLaunch\AutomationServer\obj\x86\Debug\AutomationServer.pdb
+D:\Automation\Tools\AutoLaunch_13_08_2013\AutoLaunch\AutomationServer\bin\Debug\AutoItX3.dll
+D:\Automation\Tools\AutoLaunch_13_08_2013\AutoLaunch\AutomationServer\bin\Debug\AutoItX3_x64.dll
+D:\Automation\Tools\AutoLaunch_13_08_2013\AutoLaunch\AutomationServer\bin\Debug\AutoLaunch.config
+D:\Automation\Tools\AutoLaunch_13_08_2013\AutoLaunch\AutomationServer\bin\Debug\AutomationServer.exe
+D:\Automation\Tools\AutoLaunch_13_08_2013\AutoLaunch\AutomationServer\bin\Debug\AutomationServer.pdb
+D:\Automation\Tools\AutoLaunch_13_08_2013\AutoLaunch\AutomationServer\bin\Debug\AutomationCommon.dll
+D:\Automation\Tools\AutoLaunch_13_08_2013\AutoLaunch\AutomationServer\bin\Debug\DiffieHellman.dll
+D:\Automation\Tools\AutoLaunch_13_08_2013\AutoLaunch\AutomationServer\bin\Debug\Microsoft.Windows.Shell.dll
+D:\Automation\Tools\AutoLaunch_13_08_2013\AutoLaunch\AutomationServer\bin\Debug\Odyssey.dll
+D:\Automation\Tools\AutoLaunch_13_08_2013\AutoLaunch\AutomationServer\bin\Debug\Org.Mentalis.Security.dll
+D:\Automation\Tools\AutoLaunch_13_08_2013\AutoLaunch\AutomationServer\bin\Debug\RibbonControlsLibrary.dll
+D:\Automation\Tools\AutoLaunch_13_08_2013\AutoLaunch\AutomationServer\bin\Debug\Routrek.Granados.dll
+D:\Automation\Tools\AutoLaunch_13_08_2013\AutoLaunch\AutomationServer\bin\Debug\Tamir.sharpSsh.dll
+D:\Automation\Tools\AutoLaunch_13_08_2013\AutoLaunch\AutomationServer\bin\Debug\AutomationCommon.pdb
+D:\Automation\Tools\AutoLaunch_13_08_2013\AutoLaunch\AutomationServer\obj\x86\Debug\Auto Launch Server.csprojResolveAssemblyReference.cache
+D:\Automation\Tools\AutoLaunch_13_08_2013\AutoLaunch\AutomationServer\obj\x86\Debug\AutomationServer.Properties.Resources.resources
+D:\Automation\Tools\AutoLaunch_13_08_2013\AutoLaunch\AutomationServer\obj\x86\Debug\Auto Launch Server.csproj.GenerateResource.Cache
+D:\Automation\Tools\AutoLaunch_02_09_2013\AutoLaunch\AutomationServer\bin\Debug\AutomationServer.exe.config
+D:\Automation\Tools\AutoLaunch_02_09_2013\AutoLaunch\AutomationServer\obj\x86\Debug\Interop.AutoItX3Lib.dll
+D:\Automation\Tools\AutoLaunch_02_09_2013\AutoLaunch\AutomationServer\obj\x86\Debug\Auto Launch Server.csproj.ResolveComReference.cache
+D:\Automation\Tools\AutoLaunch_02_09_2013\AutoLaunch\AutomationServer\obj\x86\Debug\AutomationServer.exe
+D:\Automation\Tools\AutoLaunch_02_09_2013\AutoLaunch\AutomationServer\obj\x86\Debug\AutomationServer.pdb
+D:\Automation\Tools\AutoLaunch_02_09_2013\AutoLaunch\AutomationServer\bin\Debug\AutoItX3.dll
+D:\Automation\Tools\AutoLaunch_02_09_2013\AutoLaunch\AutomationServer\bin\Debug\AutoItX3_x64.dll
+D:\Automation\Tools\AutoLaunch_02_09_2013\AutoLaunch\AutomationServer\bin\Debug\AutoLaunch.config
+D:\Automation\Tools\AutoLaunch_02_09_2013\AutoLaunch\AutomationServer\bin\Debug\AutomationServer.exe
+D:\Automation\Tools\AutoLaunch_02_09_2013\AutoLaunch\AutomationServer\bin\Debug\AutomationServer.pdb
+D:\Automation\Tools\AutoLaunch_02_09_2013\AutoLaunch\AutomationServer\bin\Debug\AutomationCommon.dll
+D:\Automation\Tools\AutoLaunch_02_09_2013\AutoLaunch\AutomationServer\bin\Debug\DiffieHellman.dll
+D:\Automation\Tools\AutoLaunch_02_09_2013\AutoLaunch\AutomationServer\bin\Debug\Microsoft.Windows.Shell.dll
+D:\Automation\Tools\AutoLaunch_02_09_2013\AutoLaunch\AutomationServer\bin\Debug\Odyssey.dll
+D:\Automation\Tools\AutoLaunch_02_09_2013\AutoLaunch\AutomationServer\bin\Debug\Org.Mentalis.Security.dll
+D:\Automation\Tools\AutoLaunch_02_09_2013\AutoLaunch\AutomationServer\bin\Debug\RibbonControlsLibrary.dll
+D:\Automation\Tools\AutoLaunch_02_09_2013\AutoLaunch\AutomationServer\bin\Debug\Routrek.Granados.dll
+D:\Automation\Tools\AutoLaunch_02_09_2013\AutoLaunch\AutomationServer\bin\Debug\Tamir.sharpSsh.dll
+D:\Automation\Tools\AutoLaunch_02_09_2013\AutoLaunch\AutomationServer\bin\Debug\AutomationCommon.pdb
+D:\Automation\Tools\AutoLaunch_02_09_2013\AutoLaunch\AutomationServer\obj\x86\Debug\Auto Launch Server.csprojResolveAssemblyReference.cache
+D:\Automation\Tools\AutoLaunch_02_09_2013\AutoLaunch\AutomationServer\obj\x86\Debug\AutomationServer.Properties.Resources.resources
+D:\Automation\Tools\AutoLaunch_02_09_2013\AutoLaunch\AutomationServer\obj\x86\Debug\Auto Launch Server.csproj.GenerateResource.Cache
+D:\Automation\Tools\AutoLaunch_13_09_2013\AutoLaunch\AutomationServer\bin\Debug\AutoItX3.dll
+D:\Automation\Tools\AutoLaunch_13_09_2013\AutoLaunch\AutomationServer\bin\Debug\AutoItX3_x64.dll
+D:\Automation\Tools\AutoLaunch_13_09_2013\AutoLaunch\AutomationServer\bin\Debug\AutoLaunch.config
+D:\Automation\Tools\AutoLaunch_13_09_2013\AutoLaunch\AutomationServer\bin\Debug\AutomationServer.exe.config
+D:\Automation\Tools\AutoLaunch_13_09_2013\AutoLaunch\AutomationServer\bin\Debug\AutomationServer.exe
+D:\Automation\Tools\AutoLaunch_13_09_2013\AutoLaunch\AutomationServer\bin\Debug\AutomationServer.pdb
+D:\Automation\Tools\AutoLaunch_13_09_2013\AutoLaunch\AutomationServer\bin\Debug\AutomationCommon.dll
+D:\Automation\Tools\AutoLaunch_13_09_2013\AutoLaunch\AutomationServer\bin\Debug\DiffieHellman.dll
+D:\Automation\Tools\AutoLaunch_13_09_2013\AutoLaunch\AutomationServer\bin\Debug\Microsoft.Windows.Shell.dll
+D:\Automation\Tools\AutoLaunch_13_09_2013\AutoLaunch\AutomationServer\bin\Debug\Odyssey.dll
+D:\Automation\Tools\AutoLaunch_13_09_2013\AutoLaunch\AutomationServer\bin\Debug\Org.Mentalis.Security.dll
+D:\Automation\Tools\AutoLaunch_13_09_2013\AutoLaunch\AutomationServer\bin\Debug\RibbonControlsLibrary.dll
+D:\Automation\Tools\AutoLaunch_13_09_2013\AutoLaunch\AutomationServer\bin\Debug\Routrek.Granados.dll
+D:\Automation\Tools\AutoLaunch_13_09_2013\AutoLaunch\AutomationServer\bin\Debug\Tamir.sharpSsh.dll
+D:\Automation\Tools\AutoLaunch_13_09_2013\AutoLaunch\AutomationServer\bin\Debug\AutomationCommon.pdb
+D:\Automation\Tools\AutoLaunch_13_09_2013\AutoLaunch\AutomationServer\obj\x86\Debug\Auto Launch Server.csprojResolveAssemblyReference.cache
+D:\Automation\Tools\AutoLaunch_13_09_2013\AutoLaunch\AutomationServer\obj\x86\Debug\Interop.AutoItX3Lib.dll
+D:\Automation\Tools\AutoLaunch_13_09_2013\AutoLaunch\AutomationServer\obj\x86\Debug\Auto Launch Server.csproj.ResolveComReference.cache
+D:\Automation\Tools\AutoLaunch_13_09_2013\AutoLaunch\AutomationServer\obj\x86\Debug\AutomationServer.Properties.Resources.resources
+D:\Automation\Tools\AutoLaunch_13_09_2013\AutoLaunch\AutomationServer\obj\x86\Debug\Auto Launch Server.csproj.GenerateResource.Cache
+D:\Automation\Tools\AutoLaunch_13_09_2013\AutoLaunch\AutomationServer\obj\x86\Debug\AutomationServer.exe
+D:\Automation\Tools\AutoLaunch_13_09_2013\AutoLaunch\AutomationServer\obj\x86\Debug\AutomationServer.pdb
+D:\Automation\Tools\AutoLaunch_22_09_2013\AutoLaunch\AutomationServer\bin\Debug\AutoItX3.dll
+D:\Automation\Tools\AutoLaunch_22_09_2013\AutoLaunch\AutomationServer\bin\Debug\AutoItX3_x64.dll
+D:\Automation\Tools\AutoLaunch_22_09_2013\AutoLaunch\AutomationServer\bin\Debug\AutoLaunch.config
+D:\Automation\Tools\AutoLaunch_22_09_2013\AutoLaunch\AutomationServer\bin\Debug\AutomationServer.exe.config
+D:\Automation\Tools\AutoLaunch_22_09_2013\AutoLaunch\AutomationServer\bin\Debug\AutomationServer.exe
+D:\Automation\Tools\AutoLaunch_22_09_2013\AutoLaunch\AutomationServer\bin\Debug\AutomationServer.pdb
+D:\Automation\Tools\AutoLaunch_22_09_2013\AutoLaunch\AutomationServer\bin\Debug\AutomationCommon.dll
+D:\Automation\Tools\AutoLaunch_22_09_2013\AutoLaunch\AutomationServer\bin\Debug\DiffieHellman.dll
+D:\Automation\Tools\AutoLaunch_22_09_2013\AutoLaunch\AutomationServer\bin\Debug\Microsoft.Windows.Shell.dll
+D:\Automation\Tools\AutoLaunch_22_09_2013\AutoLaunch\AutomationServer\bin\Debug\Odyssey.dll
+D:\Automation\Tools\AutoLaunch_22_09_2013\AutoLaunch\AutomationServer\bin\Debug\Org.Mentalis.Security.dll
+D:\Automation\Tools\AutoLaunch_22_09_2013\AutoLaunch\AutomationServer\bin\Debug\RibbonControlsLibrary.dll
+D:\Automation\Tools\AutoLaunch_22_09_2013\AutoLaunch\AutomationServer\bin\Debug\Routrek.Granados.dll
+D:\Automation\Tools\AutoLaunch_22_09_2013\AutoLaunch\AutomationServer\bin\Debug\Tamir.sharpSsh.dll
+D:\Automation\Tools\AutoLaunch_22_09_2013\AutoLaunch\AutomationServer\bin\Debug\AutomationCommon.pdb
+D:\Automation\Tools\AutoLaunch_22_09_2013\AutoLaunch\AutomationServer\obj\x86\Debug\Auto Launch Server.csprojResolveAssemblyReference.cache
+D:\Automation\Tools\AutoLaunch_22_09_2013\AutoLaunch\AutomationServer\obj\x86\Debug\Interop.AutoItX3Lib.dll
+D:\Automation\Tools\AutoLaunch_22_09_2013\AutoLaunch\AutomationServer\obj\x86\Debug\Auto Launch Server.csproj.ResolveComReference.cache
+D:\Automation\Tools\AutoLaunch_22_09_2013\AutoLaunch\AutomationServer\obj\x86\Debug\AutomationServer.Properties.Resources.resources
+D:\Automation\Tools\AutoLaunch_22_09_2013\AutoLaunch\AutomationServer\obj\x86\Debug\Auto Launch Server.csproj.GenerateResource.Cache
+D:\Automation\Tools\AutoLaunch_22_09_2013\AutoLaunch\AutomationServer\obj\x86\Debug\AutomationServer.exe
+D:\Automation\Tools\AutoLaunch_22_09_2013\AutoLaunch\AutomationServer\obj\x86\Debug\AutomationServer.pdb
+D:\Automation\Tools\AutoLaunch_16_10_2013\AutoLaunch\AutomationServer\bin\Debug\AutoItX3.dll
+D:\Automation\Tools\AutoLaunch_16_10_2013\AutoLaunch\AutomationServer\bin\Debug\AutoItX3_x64.dll
+D:\Automation\Tools\AutoLaunch_16_10_2013\AutoLaunch\AutomationServer\bin\Debug\AutoLaunch.config
+D:\Automation\Tools\AutoLaunch_16_10_2013\AutoLaunch\AutomationServer\bin\Debug\AutomationServer.exe.config
+D:\Automation\Tools\AutoLaunch_16_10_2013\AutoLaunch\AutomationServer\bin\Debug\AutomationServer.exe
+D:\Automation\Tools\AutoLaunch_16_10_2013\AutoLaunch\AutomationServer\bin\Debug\AutomationServer.pdb
+D:\Automation\Tools\AutoLaunch_16_10_2013\AutoLaunch\AutomationServer\bin\Debug\AutomationCommon.dll
+D:\Automation\Tools\AutoLaunch_16_10_2013\AutoLaunch\AutomationServer\bin\Debug\DiffieHellman.dll
+D:\Automation\Tools\AutoLaunch_16_10_2013\AutoLaunch\AutomationServer\bin\Debug\Microsoft.Windows.Shell.dll
+D:\Automation\Tools\AutoLaunch_16_10_2013\AutoLaunch\AutomationServer\bin\Debug\Odyssey.dll
+D:\Automation\Tools\AutoLaunch_16_10_2013\AutoLaunch\AutomationServer\bin\Debug\Org.Mentalis.Security.dll
+D:\Automation\Tools\AutoLaunch_16_10_2013\AutoLaunch\AutomationServer\bin\Debug\RibbonControlsLibrary.dll
+D:\Automation\Tools\AutoLaunch_16_10_2013\AutoLaunch\AutomationServer\bin\Debug\Routrek.Granados.dll
+D:\Automation\Tools\AutoLaunch_16_10_2013\AutoLaunch\AutomationServer\bin\Debug\Tamir.sharpSsh.dll
+D:\Automation\Tools\AutoLaunch_16_10_2013\AutoLaunch\AutomationServer\bin\Debug\AutomationCommon.pdb
+D:\Automation\Tools\AutoLaunch_16_10_2013\AutoLaunch\AutomationServer\obj\x86\Debug\Auto Launch Server.csprojResolveAssemblyReference.cache
+D:\Automation\Tools\AutoLaunch_16_10_2013\AutoLaunch\AutomationServer\obj\x86\Debug\Interop.AutoItX3Lib.dll
+D:\Automation\Tools\AutoLaunch_16_10_2013\AutoLaunch\AutomationServer\obj\x86\Debug\Auto Launch Server.csproj.ResolveComReference.cache
+D:\Automation\Tools\AutoLaunch_16_10_2013\AutoLaunch\AutomationServer\obj\x86\Debug\AutomationServer.Properties.Resources.resources
+D:\Automation\Tools\AutoLaunch_16_10_2013\AutoLaunch\AutomationServer\obj\x86\Debug\Auto Launch Server.csproj.GenerateResource.Cache
+D:\Automation\Tools\AutoLaunch_16_10_2013\AutoLaunch\AutomationServer\obj\x86\Debug\AutomationServer.exe
+D:\Automation\Tools\AutoLaunch_16_10_2013\AutoLaunch\AutomationServer\obj\x86\Debug\AutomationServer.pdb
+D:\Dev\AutoLaunch_16_10_2013\AutoLaunch\AutomationServer\bin\Debug\AutoItX3.dll
+D:\Dev\AutoLaunch_16_10_2013\AutoLaunch\AutomationServer\bin\Debug\AutoItX3_x64.dll
+D:\Dev\AutoLaunch_16_10_2013\AutoLaunch\AutomationServer\bin\Debug\AutoLaunch.config
+D:\Dev\AutoLaunch_16_10_2013\AutoLaunch\AutomationServer\bin\Debug\AutomationServer.exe.config
+D:\Dev\AutoLaunch_16_10_2013\AutoLaunch\AutomationServer\bin\Debug\AutomationServer.exe
+D:\Dev\AutoLaunch_16_10_2013\AutoLaunch\AutomationServer\bin\Debug\AutomationServer.pdb
+D:\Dev\AutoLaunch_16_10_2013\AutoLaunch\AutomationServer\bin\Debug\AutomationCommon.dll
+D:\Dev\AutoLaunch_16_10_2013\AutoLaunch\AutomationServer\bin\Debug\DiffieHellman.dll
+D:\Dev\AutoLaunch_16_10_2013\AutoLaunch\AutomationServer\bin\Debug\Microsoft.Windows.Shell.dll
+D:\Dev\AutoLaunch_16_10_2013\AutoLaunch\AutomationServer\bin\Debug\Odyssey.dll
+D:\Dev\AutoLaunch_16_10_2013\AutoLaunch\AutomationServer\bin\Debug\Org.Mentalis.Security.dll
+D:\Dev\AutoLaunch_16_10_2013\AutoLaunch\AutomationServer\bin\Debug\RibbonControlsLibrary.dll
+D:\Dev\AutoLaunch_16_10_2013\AutoLaunch\AutomationServer\bin\Debug\Routrek.Granados.dll
+D:\Dev\AutoLaunch_16_10_2013\AutoLaunch\AutomationServer\bin\Debug\Tamir.sharpSsh.dll
+D:\Dev\AutoLaunch_16_10_2013\AutoLaunch\AutomationServer\bin\Debug\AutomationCommon.pdb
+D:\Dev\AutoLaunch_16_10_2013\AutoLaunch\AutomationServer\obj\x86\Debug\Auto Launch Server.csprojResolveAssemblyReference.cache
+D:\Dev\AutoLaunch_16_10_2013\AutoLaunch\AutomationServer\obj\x86\Debug\Interop.AutoItX3Lib.dll
+D:\Dev\AutoLaunch_16_10_2013\AutoLaunch\AutomationServer\obj\x86\Debug\Auto Launch Server.csproj.ResolveComReference.cache
+D:\Dev\AutoLaunch_16_10_2013\AutoLaunch\AutomationServer\obj\x86\Debug\AutomationServer.Properties.Resources.resources
+D:\Dev\AutoLaunch_16_10_2013\AutoLaunch\AutomationServer\obj\x86\Debug\Auto Launch Server.csproj.GenerateResource.Cache
+D:\Dev\AutoLaunch_16_10_2013\AutoLaunch\AutomationServer\obj\x86\Debug\AutomationServer.exe
+D:\Dev\AutoLaunch_16_10_2013\AutoLaunch\AutomationServer\obj\x86\Debug\AutomationServer.pdb
+D:\Automation\Tools\AutoLaunch_13_11_2013\AutoLaunch\AutomationServer\bin\Debug\AutomationServer.exe.config
+D:\Automation\Tools\AutoLaunch_13_11_2013\AutoLaunch\AutomationServer\obj\x86\Debug\Interop.AutoItX3Lib.dll
+D:\Automation\Tools\AutoLaunch_13_11_2013\AutoLaunch\AutomationServer\obj\x86\Debug\Auto Launch Server.csproj.ResolveComReference.cache
+D:\Automation\Tools\AutoLaunch_13_11_2013\AutoLaunch\AutomationServer\obj\x86\Debug\AutomationServer.exe
+D:\Automation\Tools\AutoLaunch_13_11_2013\AutoLaunch\AutomationServer\obj\x86\Debug\AutomationServer.pdb
+D:\Automation\Tools\AutoLaunch_13_11_2013\AutoLaunch\AutomationServer\bin\Debug\AutoItX3.dll
+D:\Automation\Tools\AutoLaunch_13_11_2013\AutoLaunch\AutomationServer\bin\Debug\AutoItX3_x64.dll
+D:\Automation\Tools\AutoLaunch_13_11_2013\AutoLaunch\AutomationServer\bin\Debug\AutoLaunch.config
+D:\Automation\Tools\AutoLaunch_13_11_2013\AutoLaunch\AutomationServer\bin\Debug\AutomationServer.exe
+D:\Automation\Tools\AutoLaunch_13_11_2013\AutoLaunch\AutomationServer\bin\Debug\AutomationServer.pdb
+D:\Automation\Tools\AutoLaunch_13_11_2013\AutoLaunch\AutomationServer\bin\Debug\AutomationCommon.dll
+D:\Automation\Tools\AutoLaunch_13_11_2013\AutoLaunch\AutomationServer\bin\Debug\DiffieHellman.dll
+D:\Automation\Tools\AutoLaunch_13_11_2013\AutoLaunch\AutomationServer\bin\Debug\Microsoft.Windows.Shell.dll
+D:\Automation\Tools\AutoLaunch_13_11_2013\AutoLaunch\AutomationServer\bin\Debug\Odyssey.dll
+D:\Automation\Tools\AutoLaunch_13_11_2013\AutoLaunch\AutomationServer\bin\Debug\Org.Mentalis.Security.dll
+D:\Automation\Tools\AutoLaunch_13_11_2013\AutoLaunch\AutomationServer\bin\Debug\RibbonControlsLibrary.dll
+D:\Automation\Tools\AutoLaunch_13_11_2013\AutoLaunch\AutomationServer\bin\Debug\Routrek.Granados.dll
+D:\Automation\Tools\AutoLaunch_13_11_2013\AutoLaunch\AutomationServer\bin\Debug\Tamir.sharpSsh.dll
+D:\Automation\Tools\AutoLaunch_13_11_2013\AutoLaunch\AutomationServer\bin\Debug\AutomationCommon.pdb
+D:\Automation\Tools\AutoLaunch_13_11_2013\AutoLaunch\AutomationServer\obj\x86\Debug\Auto Launch Server.csprojResolveAssemblyReference.cache
+D:\Automation\Tools\AutoLaunch_13_11_2013\AutoLaunch\AutomationServer\obj\x86\Debug\AutomationServer.Properties.Resources.resources
+D:\Automation\Tools\AutoLaunch_13_11_2013\AutoLaunch\AutomationServer\obj\x86\Debug\Auto Launch Server.csproj.GenerateResource.Cache
+D:\Automation\Tools\AutoLaunch_13_11_2013\AutoLaunch - Copy\AutomationServer\bin\Debug\AutoItX3.dll
+D:\Automation\Tools\AutoLaunch_13_11_2013\AutoLaunch - Copy\AutomationServer\bin\Debug\AutoItX3_x64.dll
+D:\Automation\Tools\AutoLaunch_13_11_2013\AutoLaunch - Copy\AutomationServer\bin\Debug\AutoLaunch.config
+D:\Automation\Tools\AutoLaunch_13_11_2013\AutoLaunch - Copy\AutomationServer\bin\Debug\AutomationServer.exe.config
+D:\Automation\Tools\AutoLaunch_13_11_2013\AutoLaunch - Copy\AutomationServer\bin\Debug\AutomationServer.exe
+D:\Automation\Tools\AutoLaunch_13_11_2013\AutoLaunch - Copy\AutomationServer\bin\Debug\AutomationServer.pdb
+D:\Automation\Tools\AutoLaunch_13_11_2013\AutoLaunch - Copy\AutomationServer\bin\Debug\AutomationCommon.dll
+D:\Automation\Tools\AutoLaunch_13_11_2013\AutoLaunch - Copy\AutomationServer\bin\Debug\DiffieHellman.dll
+D:\Automation\Tools\AutoLaunch_13_11_2013\AutoLaunch - Copy\AutomationServer\bin\Debug\Microsoft.Windows.Shell.dll
+D:\Automation\Tools\AutoLaunch_13_11_2013\AutoLaunch - Copy\AutomationServer\bin\Debug\Odyssey.dll
+D:\Automation\Tools\AutoLaunch_13_11_2013\AutoLaunch - Copy\AutomationServer\bin\Debug\Org.Mentalis.Security.dll
+D:\Automation\Tools\AutoLaunch_13_11_2013\AutoLaunch - Copy\AutomationServer\bin\Debug\RibbonControlsLibrary.dll
+D:\Automation\Tools\AutoLaunch_13_11_2013\AutoLaunch - Copy\AutomationServer\bin\Debug\Routrek.Granados.dll
+D:\Automation\Tools\AutoLaunch_13_11_2013\AutoLaunch - Copy\AutomationServer\bin\Debug\Tamir.sharpSsh.dll
+D:\Automation\Tools\AutoLaunch_13_11_2013\AutoLaunch - Copy\AutomationServer\bin\Debug\AutomationCommon.pdb
+D:\Automation\Tools\AutoLaunch_13_11_2013\AutoLaunch - Copy\AutomationServer\obj\x86\Debug\Auto Launch Server.csprojResolveAssemblyReference.cache
+D:\Automation\Tools\AutoLaunch_13_11_2013\AutoLaunch - Copy\AutomationServer\obj\x86\Debug\Interop.AutoItX3Lib.dll
+D:\Automation\Tools\AutoLaunch_13_11_2013\AutoLaunch - Copy\AutomationServer\obj\x86\Debug\Auto Launch Server.csproj.ResolveComReference.cache
+D:\Automation\Tools\AutoLaunch_13_11_2013\AutoLaunch - Copy\AutomationServer\obj\x86\Debug\AutomationServer.Properties.Resources.resources
+D:\Automation\Tools\AutoLaunch_13_11_2013\AutoLaunch - Copy\AutomationServer\obj\x86\Debug\Auto Launch Server.csproj.GenerateResource.Cache
+D:\Automation\Tools\AutoLaunch_13_11_2013\AutoLaunch - Copy\AutomationServer\obj\x86\Debug\AutomationServer.exe
+D:\Automation\Tools\AutoLaunch_13_11_2013\AutoLaunch - Copy\AutomationServer\obj\x86\Debug\AutomationServer.pdb
+D:\Automation\Tools\AutoLaunch_17_11_2013\AutoLaunch\AutomationServer\bin\Debug\AutoItX3.dll
+D:\Automation\Tools\AutoLaunch_17_11_2013\AutoLaunch\AutomationServer\bin\Debug\AutoItX3_x64.dll
+D:\Automation\Tools\AutoLaunch_17_11_2013\AutoLaunch\AutomationServer\bin\Debug\AutoLaunch.config
+D:\Automation\Tools\AutoLaunch_17_11_2013\AutoLaunch\AutomationServer\bin\Debug\AutomationServer.exe.config
+D:\Automation\Tools\AutoLaunch_17_11_2013\AutoLaunch\AutomationServer\bin\Debug\AutomationServer.exe
+D:\Automation\Tools\AutoLaunch_17_11_2013\AutoLaunch\AutomationServer\bin\Debug\AutomationServer.pdb
+D:\Automation\Tools\AutoLaunch_17_11_2013\AutoLaunch\AutomationServer\bin\Debug\AutomationCommon.dll
+D:\Automation\Tools\AutoLaunch_17_11_2013\AutoLaunch\AutomationServer\bin\Debug\DiffieHellman.dll
+D:\Automation\Tools\AutoLaunch_17_11_2013\AutoLaunch\AutomationServer\bin\Debug\Microsoft.Windows.Shell.dll
+D:\Automation\Tools\AutoLaunch_17_11_2013\AutoLaunch\AutomationServer\bin\Debug\Odyssey.dll
+D:\Automation\Tools\AutoLaunch_17_11_2013\AutoLaunch\AutomationServer\bin\Debug\Org.Mentalis.Security.dll
+D:\Automation\Tools\AutoLaunch_17_11_2013\AutoLaunch\AutomationServer\bin\Debug\RibbonControlsLibrary.dll
+D:\Automation\Tools\AutoLaunch_17_11_2013\AutoLaunch\AutomationServer\bin\Debug\Routrek.Granados.dll
+D:\Automation\Tools\AutoLaunch_17_11_2013\AutoLaunch\AutomationServer\bin\Debug\Tamir.sharpSsh.dll
+D:\Automation\Tools\AutoLaunch_17_11_2013\AutoLaunch\AutomationServer\bin\Debug\AutomationCommon.pdb
+D:\Automation\Tools\AutoLaunch_17_11_2013\AutoLaunch\AutomationServer\obj\x86\Debug\Auto Launch Server.csprojResolveAssemblyReference.cache
+D:\Automation\Tools\AutoLaunch_17_11_2013\AutoLaunch\AutomationServer\obj\x86\Debug\Interop.AutoItX3Lib.dll
+D:\Automation\Tools\AutoLaunch_17_11_2013\AutoLaunch\AutomationServer\obj\x86\Debug\Auto Launch Server.csproj.ResolveComReference.cache
+D:\Automation\Tools\AutoLaunch_17_11_2013\AutoLaunch\AutomationServer\obj\x86\Debug\AutomationServer.Properties.Resources.resources
+D:\Automation\Tools\AutoLaunch_17_11_2013\AutoLaunch\AutomationServer\obj\x86\Debug\Auto Launch Server.csproj.GenerateResource.Cache
+D:\Automation\Tools\AutoLaunch_17_11_2013\AutoLaunch\AutomationServer\obj\x86\Debug\AutomationServer.exe
+D:\Automation\Tools\AutoLaunch_17_11_2013\AutoLaunch\AutomationServer\obj\x86\Debug\AutomationServer.pdb
+D:\Automation\Tools\AutoLaunch_21_11_2013\AutoLaunch\AutomationServer\bin\Debug\AutoItX3.dll
+D:\Automation\Tools\AutoLaunch_21_11_2013\AutoLaunch\AutomationServer\bin\Debug\AutoItX3_x64.dll
+D:\Automation\Tools\AutoLaunch_21_11_2013\AutoLaunch\AutomationServer\bin\Debug\AutoLaunch.config
+D:\Automation\Tools\AutoLaunch_21_11_2013\AutoLaunch\AutomationServer\bin\Debug\AutomationServer.exe.config
+D:\Automation\Tools\AutoLaunch_21_11_2013\AutoLaunch\AutomationServer\bin\Debug\AutomationServer.exe
+D:\Automation\Tools\AutoLaunch_21_11_2013\AutoLaunch\AutomationServer\bin\Debug\AutomationServer.pdb
+D:\Automation\Tools\AutoLaunch_21_11_2013\AutoLaunch\AutomationServer\bin\Debug\AutomationCommon.dll
+D:\Automation\Tools\AutoLaunch_21_11_2013\AutoLaunch\AutomationServer\bin\Debug\DiffieHellman.dll
+D:\Automation\Tools\AutoLaunch_21_11_2013\AutoLaunch\AutomationServer\bin\Debug\Microsoft.Windows.Shell.dll
+D:\Automation\Tools\AutoLaunch_21_11_2013\AutoLaunch\AutomationServer\bin\Debug\Odyssey.dll
+D:\Automation\Tools\AutoLaunch_21_11_2013\AutoLaunch\AutomationServer\bin\Debug\Org.Mentalis.Security.dll
+D:\Automation\Tools\AutoLaunch_21_11_2013\AutoLaunch\AutomationServer\bin\Debug\RibbonControlsLibrary.dll
+D:\Automation\Tools\AutoLaunch_21_11_2013\AutoLaunch\AutomationServer\bin\Debug\Routrek.Granados.dll
+D:\Automation\Tools\AutoLaunch_21_11_2013\AutoLaunch\AutomationServer\bin\Debug\Tamir.sharpSsh.dll
+D:\Automation\Tools\AutoLaunch_21_11_2013\AutoLaunch\AutomationServer\bin\Debug\AutomationCommon.pdb
+D:\Automation\Tools\AutoLaunch_21_11_2013\AutoLaunch\AutomationServer\obj\x86\Debug\Auto Launch Server.csprojResolveAssemblyReference.cache
+D:\Automation\Tools\AutoLaunch_21_11_2013\AutoLaunch\AutomationServer\obj\x86\Debug\Interop.AutoItX3Lib.dll
+D:\Automation\Tools\AutoLaunch_21_11_2013\AutoLaunch\AutomationServer\obj\x86\Debug\Auto Launch Server.csproj.ResolveComReference.cache
+D:\Automation\Tools\AutoLaunch_21_11_2013\AutoLaunch\AutomationServer\obj\x86\Debug\AutomationServer.Properties.Resources.resources
+D:\Automation\Tools\AutoLaunch_21_11_2013\AutoLaunch\AutomationServer\obj\x86\Debug\Auto Launch Server.csproj.GenerateResource.Cache
+D:\Automation\Tools\AutoLaunch_21_11_2013\AutoLaunch\AutomationServer\obj\x86\Debug\AutomationServer.exe
+D:\Automation\Tools\AutoLaunch_21_11_2013\AutoLaunch\AutomationServer\obj\x86\Debug\AutomationServer.pdb
+D:\Automation\Tools\AutoLaunch_27_11_2013\AutoLaunch\AutomationServer\obj\x86\Debug\Auto Launch Server.csprojResolveAssemblyReference.cache
+D:\Automation\Tools\AutoLaunch_27_11_2013\AutoLaunch\AutomationServer\obj\x86\Debug\Interop.AutoItX3Lib.dll
+D:\Automation\Tools\AutoLaunch_27_11_2013\AutoLaunch\AutomationServer\obj\x86\Debug\Auto Launch Server.csproj.ResolveComReference.cache
+D:\Automation\Tools\AutoLaunch_27_11_2013\AutoLaunch\AutomationServer\obj\x86\Debug\AutomationServer.Properties.Resources.resources
+D:\Automation\Tools\AutoLaunch_27_11_2013\AutoLaunch\AutomationServer\obj\x86\Debug\Auto Launch Server.csproj.GenerateResource.Cache
+D:\Automation\Tools\AutoLaunch_27_11_2013\AutoLaunch\AutomationServer\obj\x86\Debug\AutomationServer.exe
+D:\Automation\Tools\AutoLaunch_27_11_2013\AutoLaunch\AutomationServer\bin\Debug\AutoItX3.dll
+D:\Automation\Tools\AutoLaunch_27_11_2013\AutoLaunch\AutomationServer\bin\Debug\AutoItX3_x64.dll
+D:\Automation\Tools\AutoLaunch_27_11_2013\AutoLaunch\AutomationServer\bin\Debug\AutoLaunch.config
+D:\Automation\Tools\AutoLaunch_27_11_2013\AutoLaunch\AutomationServer\bin\Debug\AutomationServer.exe.config
+D:\Automation\Tools\AutoLaunch_27_11_2013\AutoLaunch\AutomationServer\bin\Debug\AutomationServer.exe
+D:\Automation\Tools\AutoLaunch_27_11_2013\AutoLaunch\AutomationServer\bin\Debug\AutomationServer.pdb
+D:\Automation\Tools\AutoLaunch_27_11_2013\AutoLaunch\AutomationServer\bin\Debug\AutomationCommon.dll
+D:\Automation\Tools\AutoLaunch_27_11_2013\AutoLaunch\AutomationServer\bin\Debug\DiffieHellman.dll
+D:\Automation\Tools\AutoLaunch_27_11_2013\AutoLaunch\AutomationServer\bin\Debug\Microsoft.Windows.Shell.dll
+D:\Automation\Tools\AutoLaunch_27_11_2013\AutoLaunch\AutomationServer\bin\Debug\Odyssey.dll
+D:\Automation\Tools\AutoLaunch_27_11_2013\AutoLaunch\AutomationServer\bin\Debug\Org.Mentalis.Security.dll
+D:\Automation\Tools\AutoLaunch_27_11_2013\AutoLaunch\AutomationServer\bin\Debug\RibbonControlsLibrary.dll
+D:\Automation\Tools\AutoLaunch_27_11_2013\AutoLaunch\AutomationServer\bin\Debug\Routrek.Granados.dll
+D:\Automation\Tools\AutoLaunch_27_11_2013\AutoLaunch\AutomationServer\bin\Debug\Tamir.sharpSsh.dll
+D:\Automation\Tools\AutoLaunch_27_11_2013\AutoLaunch\AutomationServer\bin\Debug\AutomationCommon.pdb
+D:\Automation\Tools\AutoLaunch_27_11_2013\AutoLaunch\AutomationServer\obj\x86\Debug\AutomationServer.pdb
+D:\Automation\Tools\AutoLaunch_28_11_2013\AutoLaunch\AutomationServer\bin\Debug\AutoItX3.dll
+D:\Automation\Tools\AutoLaunch_28_11_2013\AutoLaunch\AutomationServer\bin\Debug\AutoItX3_x64.dll
+D:\Automation\Tools\AutoLaunch_28_11_2013\AutoLaunch\AutomationServer\bin\Debug\AutoLaunch.config
+D:\Automation\Tools\AutoLaunch_28_11_2013\AutoLaunch\AutomationServer\bin\Debug\AutomationServer.exe.config
+D:\Automation\Tools\AutoLaunch_28_11_2013\AutoLaunch\AutomationServer\bin\Debug\AutomationServer.exe
+D:\Automation\Tools\AutoLaunch_28_11_2013\AutoLaunch\AutomationServer\bin\Debug\AutomationServer.pdb
+D:\Automation\Tools\AutoLaunch_28_11_2013\AutoLaunch\AutomationServer\bin\Debug\AutomationCommon.dll
+D:\Automation\Tools\AutoLaunch_28_11_2013\AutoLaunch\AutomationServer\bin\Debug\DiffieHellman.dll
+D:\Automation\Tools\AutoLaunch_28_11_2013\AutoLaunch\AutomationServer\bin\Debug\Microsoft.Windows.Shell.dll
+D:\Automation\Tools\AutoLaunch_28_11_2013\AutoLaunch\AutomationServer\bin\Debug\Odyssey.dll
+D:\Automation\Tools\AutoLaunch_28_11_2013\AutoLaunch\AutomationServer\bin\Debug\Org.Mentalis.Security.dll
+D:\Automation\Tools\AutoLaunch_28_11_2013\AutoLaunch\AutomationServer\bin\Debug\RibbonControlsLibrary.dll
+D:\Automation\Tools\AutoLaunch_28_11_2013\AutoLaunch\AutomationServer\bin\Debug\Routrek.Granados.dll
+D:\Automation\Tools\AutoLaunch_28_11_2013\AutoLaunch\AutomationServer\bin\Debug\Tamir.sharpSsh.dll
+D:\Automation\Tools\AutoLaunch_28_11_2013\AutoLaunch\AutomationServer\bin\Debug\AutomationCommon.pdb
+D:\Automation\Tools\AutoLaunch_28_11_2013\AutoLaunch\AutomationServer\obj\x86\Debug\Auto Launch Server.csprojResolveAssemblyReference.cache
+D:\Automation\Tools\AutoLaunch_28_11_2013\AutoLaunch\AutomationServer\obj\x86\Debug\Interop.AutoItX3Lib.dll
+D:\Automation\Tools\AutoLaunch_28_11_2013\AutoLaunch\AutomationServer\obj\x86\Debug\Auto Launch Server.csproj.ResolveComReference.cache
+D:\Automation\Tools\AutoLaunch_28_11_2013\AutoLaunch\AutomationServer\obj\x86\Debug\AutomationServer.Properties.Resources.resources
+D:\Automation\Tools\AutoLaunch_28_11_2013\AutoLaunch\AutomationServer\obj\x86\Debug\Auto Launch Server.csproj.GenerateResource.Cache
+D:\Automation\Tools\AutoLaunch_28_11_2013\AutoLaunch\AutomationServer\obj\x86\Debug\AutomationServer.exe
+D:\Automation\Tools\AutoLaunch_28_11_2013\AutoLaunch\AutomationServer\obj\x86\Debug\AutomationServer.pdb
+D:\Automation\Tools\AutoLaunch_13_12_2013\AutoLaunch\AutomationServer\bin\Debug\AutoItX3.dll
+D:\Automation\Tools\AutoLaunch_13_12_2013\AutoLaunch\AutomationServer\bin\Debug\AutoItX3_x64.dll
+D:\Automation\Tools\AutoLaunch_13_12_2013\AutoLaunch\AutomationServer\bin\Debug\AutoLaunch.config
+D:\Automation\Tools\AutoLaunch_13_12_2013\AutoLaunch\AutomationServer\bin\Debug\AutomationServer.exe.config
+D:\Automation\Tools\AutoLaunch_13_12_2013\AutoLaunch\AutomationServer\bin\Debug\AutomationServer.exe
+D:\Automation\Tools\AutoLaunch_13_12_2013\AutoLaunch\AutomationServer\bin\Debug\AutomationServer.pdb
+D:\Automation\Tools\AutoLaunch_13_12_2013\AutoLaunch\AutomationServer\bin\Debug\AutomationCommon.dll
+D:\Automation\Tools\AutoLaunch_13_12_2013\AutoLaunch\AutomationServer\bin\Debug\DiffieHellman.dll
+D:\Automation\Tools\AutoLaunch_13_12_2013\AutoLaunch\AutomationServer\bin\Debug\Microsoft.Windows.Shell.dll
+D:\Automation\Tools\AutoLaunch_13_12_2013\AutoLaunch\AutomationServer\bin\Debug\Odyssey.dll
+D:\Automation\Tools\AutoLaunch_13_12_2013\AutoLaunch\AutomationServer\bin\Debug\Org.Mentalis.Security.dll
+D:\Automation\Tools\AutoLaunch_13_12_2013\AutoLaunch\AutomationServer\bin\Debug\RibbonControlsLibrary.dll
+D:\Automation\Tools\AutoLaunch_13_12_2013\AutoLaunch\AutomationServer\bin\Debug\Routrek.Granados.dll
+D:\Automation\Tools\AutoLaunch_13_12_2013\AutoLaunch\AutomationServer\bin\Debug\Tamir.sharpSsh.dll
+D:\Automation\Tools\AutoLaunch_13_12_2013\AutoLaunch\AutomationServer\bin\Debug\AutomationCommon.pdb
+D:\Automation\Tools\AutoLaunch_13_12_2013\AutoLaunch\AutomationServer\obj\x86\Debug\Auto Launch Server.csprojResolveAssemblyReference.cache
+D:\Automation\Tools\AutoLaunch_13_12_2013\AutoLaunch\AutomationServer\obj\x86\Debug\Interop.AutoItX3Lib.dll
+D:\Automation\Tools\AutoLaunch_13_12_2013\AutoLaunch\AutomationServer\obj\x86\Debug\Auto Launch Server.csproj.ResolveComReference.cache
+D:\Automation\Tools\AutoLaunch_13_12_2013\AutoLaunch\AutomationServer\obj\x86\Debug\AutomationServer.Properties.Resources.resources
+D:\Automation\Tools\AutoLaunch_13_12_2013\AutoLaunch\AutomationServer\obj\x86\Debug\Auto Launch Server.csproj.GenerateResource.Cache
+D:\Automation\Tools\AutoLaunch_13_12_2013\AutoLaunch\AutomationServer\obj\x86\Debug\AutomationServer.exe
+D:\Automation\Tools\AutoLaunch_13_12_2013\AutoLaunch\AutomationServer\obj\x86\Debug\AutomationServer.pdb
+D:\Automation\Tools\AutoLaunch_15_12_2013\AutoLaunch\AutomationServer\bin\Debug\AutomationServer.exe.config
+D:\Automation\Tools\AutoLaunch_15_12_2013\AutoLaunch\AutomationServer\obj\x86\Debug\Interop.AutoItX3Lib.dll
+D:\Automation\Tools\AutoLaunch_15_12_2013\AutoLaunch\AutomationServer\obj\x86\Debug\Auto Launch Server.csproj.ResolveComReference.cache
+D:\Automation\Tools\AutoLaunch_15_12_2013\AutoLaunch\AutomationServer\obj\x86\Debug\AutomationServer.exe
+D:\Automation\Tools\AutoLaunch_15_12_2013\AutoLaunch\AutomationServer\obj\x86\Debug\AutomationServer.pdb
+D:\Automation\Tools\AutoLaunch_15_12_2013\AutoLaunch\AutomationServer\bin\Debug\AutoItX3.dll
+D:\Automation\Tools\AutoLaunch_15_12_2013\AutoLaunch\AutomationServer\bin\Debug\AutoItX3_x64.dll
+D:\Automation\Tools\AutoLaunch_15_12_2013\AutoLaunch\AutomationServer\bin\Debug\AutoLaunch.config
+D:\Automation\Tools\AutoLaunch_15_12_2013\AutoLaunch\AutomationServer\bin\Debug\AutomationServer.exe
+D:\Automation\Tools\AutoLaunch_15_12_2013\AutoLaunch\AutomationServer\bin\Debug\AutomationServer.pdb
+D:\Automation\Tools\AutoLaunch_15_12_2013\AutoLaunch\AutomationServer\bin\Debug\AutomationCommon.dll
+D:\Automation\Tools\AutoLaunch_15_12_2013\AutoLaunch\AutomationServer\bin\Debug\DiffieHellman.dll
+D:\Automation\Tools\AutoLaunch_15_12_2013\AutoLaunch\AutomationServer\bin\Debug\Microsoft.Windows.Shell.dll
+D:\Automation\Tools\AutoLaunch_15_12_2013\AutoLaunch\AutomationServer\bin\Debug\Odyssey.dll
+D:\Automation\Tools\AutoLaunch_15_12_2013\AutoLaunch\AutomationServer\bin\Debug\Org.Mentalis.Security.dll
+D:\Automation\Tools\AutoLaunch_15_12_2013\AutoLaunch\AutomationServer\bin\Debug\RibbonControlsLibrary.dll
+D:\Automation\Tools\AutoLaunch_15_12_2013\AutoLaunch\AutomationServer\bin\Debug\Routrek.Granados.dll
+D:\Automation\Tools\AutoLaunch_15_12_2013\AutoLaunch\AutomationServer\bin\Debug\Tamir.sharpSsh.dll
+D:\Automation\Tools\AutoLaunch_15_12_2013\AutoLaunch\AutomationServer\bin\Debug\AutomationCommon.pdb
+D:\Automation\Tools\AutoLaunch_15_12_2013\AutoLaunch\AutomationServer\obj\x86\Debug\Auto Launch Server.csprojResolveAssemblyReference.cache
+D:\Automation\Tools\AutoLaunch_15_12_2013\AutoLaunch\AutomationServer\obj\x86\Debug\AutomationServer.Properties.Resources.resources
+D:\Automation\Tools\AutoLaunch_15_12_2013\AutoLaunch\AutomationServer\obj\x86\Debug\Auto Launch Server.csproj.GenerateResource.Cache
+D:\Automation\Tools\AutoLaunch_09_01_2014\AutoLaunch\AutomationServer\bin\Debug\AutoItX3.dll
+D:\Automation\Tools\AutoLaunch_09_01_2014\AutoLaunch\AutomationServer\bin\Debug\AutoItX3_x64.dll
+D:\Automation\Tools\AutoLaunch_09_01_2014\AutoLaunch\AutomationServer\bin\Debug\AutoLaunch.config
+D:\Automation\Tools\AutoLaunch_09_01_2014\AutoLaunch\AutomationServer\bin\Debug\AutomationServer.exe.config
+D:\Automation\Tools\AutoLaunch_09_01_2014\AutoLaunch\AutomationServer\bin\Debug\AutomationServer.exe
+D:\Automation\Tools\AutoLaunch_09_01_2014\AutoLaunch\AutomationServer\bin\Debug\AutomationServer.pdb
+D:\Automation\Tools\AutoLaunch_09_01_2014\AutoLaunch\AutomationServer\bin\Debug\AutomationCommon.dll
+D:\Automation\Tools\AutoLaunch_09_01_2014\AutoLaunch\AutomationServer\bin\Debug\DiffieHellman.dll
+D:\Automation\Tools\AutoLaunch_09_01_2014\AutoLaunch\AutomationServer\bin\Debug\Microsoft.Windows.Shell.dll
+D:\Automation\Tools\AutoLaunch_09_01_2014\AutoLaunch\AutomationServer\bin\Debug\Odyssey.dll
+D:\Automation\Tools\AutoLaunch_09_01_2014\AutoLaunch\AutomationServer\bin\Debug\Org.Mentalis.Security.dll
+D:\Automation\Tools\AutoLaunch_09_01_2014\AutoLaunch\AutomationServer\bin\Debug\RibbonControlsLibrary.dll
+D:\Automation\Tools\AutoLaunch_09_01_2014\AutoLaunch\AutomationServer\bin\Debug\Routrek.Granados.dll
+D:\Automation\Tools\AutoLaunch_09_01_2014\AutoLaunch\AutomationServer\bin\Debug\Tamir.sharpSsh.dll
+D:\Automation\Tools\AutoLaunch_09_01_2014\AutoLaunch\AutomationServer\bin\Debug\AutomationCommon.pdb
+D:\Automation\Tools\AutoLaunch_09_01_2014\AutoLaunch\AutomationServer\obj\x86\Debug\Auto Launch Server.csprojResolveAssemblyReference.cache
+D:\Automation\Tools\AutoLaunch_09_01_2014\AutoLaunch\AutomationServer\obj\x86\Debug\Interop.AutoItX3Lib.dll
+D:\Automation\Tools\AutoLaunch_09_01_2014\AutoLaunch\AutomationServer\obj\x86\Debug\Auto Launch Server.csproj.ResolveComReference.cache
+D:\Automation\Tools\AutoLaunch_09_01_2014\AutoLaunch\AutomationServer\obj\x86\Debug\AutomationServer.Properties.Resources.resources
+D:\Automation\Tools\AutoLaunch_09_01_2014\AutoLaunch\AutomationServer\obj\x86\Debug\Auto Launch Server.csproj.GenerateResource.Cache
+D:\Automation\Tools\AutoLaunch_09_01_2014\AutoLaunch\AutomationServer\obj\x86\Debug\AutomationServer.exe
+D:\Automation\Tools\AutoLaunch_09_01_2014\AutoLaunch\AutomationServer\obj\x86\Debug\AutomationServer.pdb
+D:\Automation\Tools\AutoLaunch_04_02_2014\AutoLaunch\AutomationServer\bin\Debug\AutomationServer.exe.config
+D:\Automation\Tools\AutoLaunch_04_02_2014\AutoLaunch\AutomationServer\obj\x86\Debug\Interop.AutoItX3Lib.dll
+D:\Automation\Tools\AutoLaunch_04_02_2014\AutoLaunch\AutomationServer\obj\x86\Debug\Auto Launch Server.csproj.ResolveComReference.cache
+D:\Automation\Tools\AutoLaunch_04_02_2014\AutoLaunch\AutomationServer\obj\x86\Debug\AutomationServer.exe
+D:\Automation\Tools\AutoLaunch_04_02_2014\AutoLaunch\AutomationServer\obj\x86\Debug\AutomationServer.pdb
+D:\Automation\Tools\AutoLaunch_04_02_2014\AutoLaunch\AutomationServer\bin\Debug\AutoItX3.dll
+D:\Automation\Tools\AutoLaunch_04_02_2014\AutoLaunch\AutomationServer\bin\Debug\AutoItX3_x64.dll
+D:\Automation\Tools\AutoLaunch_04_02_2014\AutoLaunch\AutomationServer\bin\Debug\AutoLaunch.config
+D:\Automation\Tools\AutoLaunch_04_02_2014\AutoLaunch\AutomationServer\bin\Debug\AutomationServer.exe
+D:\Automation\Tools\AutoLaunch_04_02_2014\AutoLaunch\AutomationServer\bin\Debug\AutomationServer.pdb
+D:\Automation\Tools\AutoLaunch_04_02_2014\AutoLaunch\AutomationServer\bin\Debug\AutomationCommon.dll
+D:\Automation\Tools\AutoLaunch_04_02_2014\AutoLaunch\AutomationServer\bin\Debug\DiffieHellman.dll
+D:\Automation\Tools\AutoLaunch_04_02_2014\AutoLaunch\AutomationServer\bin\Debug\Microsoft.Windows.Shell.dll
+D:\Automation\Tools\AutoLaunch_04_02_2014\AutoLaunch\AutomationServer\bin\Debug\Odyssey.dll
+D:\Automation\Tools\AutoLaunch_04_02_2014\AutoLaunch\AutomationServer\bin\Debug\Org.Mentalis.Security.dll
+D:\Automation\Tools\AutoLaunch_04_02_2014\AutoLaunch\AutomationServer\bin\Debug\RibbonControlsLibrary.dll
+D:\Automation\Tools\AutoLaunch_04_02_2014\AutoLaunch\AutomationServer\bin\Debug\Routrek.Granados.dll
+D:\Automation\Tools\AutoLaunch_04_02_2014\AutoLaunch\AutomationServer\bin\Debug\Tamir.sharpSsh.dll
+D:\Automation\Tools\AutoLaunch_04_02_2014\AutoLaunch\AutomationServer\bin\Debug\AutomationCommon.pdb
+D:\Automation\Tools\AutoLaunch_04_02_2014\AutoLaunch\AutomationServer\obj\x86\Debug\Auto Launch Server.csprojResolveAssemblyReference.cache
+D:\Automation\Tools\AutoLaunch_04_02_2014\AutoLaunch\AutomationServer\obj\x86\Debug\AutomationServer.Properties.Resources.resources
+D:\Automation\Tools\AutoLaunch_04_02_2014\AutoLaunch\AutomationServer\obj\x86\Debug\Auto Launch Server.csproj.GenerateResource.Cache
+D:\Automation\Tools\AutoLaunch_24_02_2014\AutoLaunch\AutomationServer\bin\Debug\AutoItX3.dll
+D:\Automation\Tools\AutoLaunch_24_02_2014\AutoLaunch\AutomationServer\bin\Debug\AutoItX3_x64.dll
+D:\Automation\Tools\AutoLaunch_24_02_2014\AutoLaunch\AutomationServer\bin\Debug\AutoLaunch.config
+D:\Automation\Tools\AutoLaunch_24_02_2014\AutoLaunch\AutomationServer\bin\Debug\AutomationServer.exe.config
+D:\Automation\Tools\AutoLaunch_24_02_2014\AutoLaunch\AutomationServer\bin\Debug\AutomationServer.exe
+D:\Automation\Tools\AutoLaunch_24_02_2014\AutoLaunch\AutomationServer\bin\Debug\AutomationServer.pdb
+D:\Automation\Tools\AutoLaunch_24_02_2014\AutoLaunch\AutomationServer\bin\Debug\AutomationCommon.dll
+D:\Automation\Tools\AutoLaunch_24_02_2014\AutoLaunch\AutomationServer\bin\Debug\DiffieHellman.dll
+D:\Automation\Tools\AutoLaunch_24_02_2014\AutoLaunch\AutomationServer\bin\Debug\Microsoft.Windows.Shell.dll
+D:\Automation\Tools\AutoLaunch_24_02_2014\AutoLaunch\AutomationServer\bin\Debug\Odyssey.dll
+D:\Automation\Tools\AutoLaunch_24_02_2014\AutoLaunch\AutomationServer\bin\Debug\Org.Mentalis.Security.dll
+D:\Automation\Tools\AutoLaunch_24_02_2014\AutoLaunch\AutomationServer\bin\Debug\RibbonControlsLibrary.dll
+D:\Automation\Tools\AutoLaunch_24_02_2014\AutoLaunch\AutomationServer\bin\Debug\Routrek.Granados.dll
+D:\Automation\Tools\AutoLaunch_24_02_2014\AutoLaunch\AutomationServer\bin\Debug\Tamir.sharpSsh.dll
+D:\Automation\Tools\AutoLaunch_24_02_2014\AutoLaunch\AutomationServer\bin\Debug\AutomationCommon.pdb
+D:\Automation\Tools\AutoLaunch_24_02_2014\AutoLaunch\AutomationServer\obj\x86\Debug\Auto Launch Server.csprojResolveAssemblyReference.cache
+D:\Automation\Tools\AutoLaunch_24_02_2014\AutoLaunch\AutomationServer\obj\x86\Debug\Interop.AutoItX3Lib.dll
+D:\Automation\Tools\AutoLaunch_24_02_2014\AutoLaunch\AutomationServer\obj\x86\Debug\Auto Launch Server.csproj.ResolveComReference.cache
+D:\Automation\Tools\AutoLaunch_24_02_2014\AutoLaunch\AutomationServer\obj\x86\Debug\AutomationServer.Properties.Resources.resources
+D:\Automation\Tools\AutoLaunch_24_02_2014\AutoLaunch\AutomationServer\obj\x86\Debug\Auto Launch Server.csproj.GenerateResource.Cache
+D:\Automation\Tools\AutoLaunch_24_02_2014\AutoLaunch\AutomationServer\obj\x86\Debug\AutomationServer.exe
+D:\Automation\Tools\AutoLaunch_24_02_2014\AutoLaunch\AutomationServer\obj\x86\Debug\AutomationServer.pdb
+D:\Automation\Tools\AutoLaunch_17_03_2014\AutoLaunch\AutomationServer\bin\Debug\AutomationServer.exe.config
+D:\Automation\Tools\AutoLaunch_17_03_2014\AutoLaunch\AutomationServer\obj\x86\Debug\Interop.AutoItX3Lib.dll
+D:\Automation\Tools\AutoLaunch_17_03_2014\AutoLaunch\AutomationServer\obj\x86\Debug\Auto Launch Server.csproj.ResolveComReference.cache
+D:\Automation\Tools\AutoLaunch_17_03_2014\AutoLaunch\AutomationServer\obj\x86\Debug\AutomationServer.exe
+D:\Automation\Tools\AutoLaunch_17_03_2014\AutoLaunch\AutomationServer\obj\x86\Debug\AutomationServer.pdb
+D:\Automation\Tools\AutoLaunch_17_03_2014\AutoLaunch\AutomationServer\bin\Debug\AutoItX3.dll
+D:\Automation\Tools\AutoLaunch_17_03_2014\AutoLaunch\AutomationServer\bin\Debug\AutoItX3_x64.dll
+D:\Automation\Tools\AutoLaunch_17_03_2014\AutoLaunch\AutomationServer\bin\Debug\AutoLaunch.config
+D:\Automation\Tools\AutoLaunch_17_03_2014\AutoLaunch\AutomationServer\bin\Debug\AutomationServer.exe
+D:\Automation\Tools\AutoLaunch_17_03_2014\AutoLaunch\AutomationServer\bin\Debug\AutomationServer.pdb
+D:\Automation\Tools\AutoLaunch_17_03_2014\AutoLaunch\AutomationServer\bin\Debug\AutomationCommon.dll
+D:\Automation\Tools\AutoLaunch_17_03_2014\AutoLaunch\AutomationServer\bin\Debug\DiffieHellman.dll
+D:\Automation\Tools\AutoLaunch_17_03_2014\AutoLaunch\AutomationServer\bin\Debug\Microsoft.Windows.Shell.dll
+D:\Automation\Tools\AutoLaunch_17_03_2014\AutoLaunch\AutomationServer\bin\Debug\Odyssey.dll
+D:\Automation\Tools\AutoLaunch_17_03_2014\AutoLaunch\AutomationServer\bin\Debug\Org.Mentalis.Security.dll
+D:\Automation\Tools\AutoLaunch_17_03_2014\AutoLaunch\AutomationServer\bin\Debug\RibbonControlsLibrary.dll
+D:\Automation\Tools\AutoLaunch_17_03_2014\AutoLaunch\AutomationServer\bin\Debug\Routrek.Granados.dll
+D:\Automation\Tools\AutoLaunch_17_03_2014\AutoLaunch\AutomationServer\bin\Debug\Tamir.sharpSsh.dll
+D:\Automation\Tools\AutoLaunch_17_03_2014\AutoLaunch\AutomationServer\bin\Debug\AutomationCommon.pdb
+D:\Automation\Tools\AutoLaunch_17_03_2014\AutoLaunch\AutomationServer\obj\x86\Debug\Auto Launch Server.csprojResolveAssemblyReference.cache
+D:\Automation\Tools\AutoLaunch_17_03_2014\AutoLaunch\AutomationServer\obj\x86\Debug\AutomationServer.Properties.Resources.resources
+D:\Automation\Tools\AutoLaunch_17_03_2014\AutoLaunch\AutomationServer\obj\x86\Debug\Auto Launch Server.csproj.GenerateResource.Cache
+D:\Automation\Tools\AutoLaunch_27_03_2014\AutoLaunch\AutomationServer\obj\x86\Debug\Auto Launch Server.csprojResolveAssemblyReference.cache
+D:\Automation\Tools\AutoLaunch_27_03_2014\AutoLaunch\AutomationServer\obj\x86\Debug\Interop.AutoItX3Lib.dll
+D:\Automation\Tools\AutoLaunch_27_03_2014\AutoLaunch\AutomationServer\obj\x86\Debug\Auto Launch Server.csproj.ResolveComReference.cache
+D:\Automation\Tools\AutoLaunch_27_03_2014\AutoLaunch\AutomationServer\obj\x86\Debug\AutomationServer.Properties.Resources.resources
+D:\Automation\Tools\AutoLaunch_27_03_2014\AutoLaunch\AutomationServer\obj\x86\Debug\Auto Launch Server.csproj.GenerateResource.Cache
+D:\Automation\Tools\AutoLaunch_27_03_2014\AutoLaunch\AutomationServer\obj\x86\Debug\AutomationServer.exe
+D:\Automation\Tools\AutoLaunch_27_03_2014\AutoLaunch\AutomationServer\bin\Debug\AutoItX3.dll
+D:\Automation\Tools\AutoLaunch_27_03_2014\AutoLaunch\AutomationServer\bin\Debug\AutoItX3_x64.dll
+D:\Automation\Tools\AutoLaunch_27_03_2014\AutoLaunch\AutomationServer\bin\Debug\AutoLaunch.config
+D:\Automation\Tools\AutoLaunch_27_03_2014\AutoLaunch\AutomationServer\bin\Debug\AutomationServer.exe.config
+D:\Automation\Tools\AutoLaunch_27_03_2014\AutoLaunch\AutomationServer\bin\Debug\AutomationServer.exe
+D:\Automation\Tools\AutoLaunch_27_03_2014\AutoLaunch\AutomationServer\bin\Debug\AutomationServer.pdb
+D:\Automation\Tools\AutoLaunch_27_03_2014\AutoLaunch\AutomationServer\bin\Debug\AutomationCommon.dll
+D:\Automation\Tools\AutoLaunch_27_03_2014\AutoLaunch\AutomationServer\bin\Debug\DiffieHellman.dll
+D:\Automation\Tools\AutoLaunch_27_03_2014\AutoLaunch\AutomationServer\bin\Debug\Microsoft.Windows.Shell.dll
+D:\Automation\Tools\AutoLaunch_27_03_2014\AutoLaunch\AutomationServer\bin\Debug\Odyssey.dll
+D:\Automation\Tools\AutoLaunch_27_03_2014\AutoLaunch\AutomationServer\bin\Debug\Org.Mentalis.Security.dll
+D:\Automation\Tools\AutoLaunch_27_03_2014\AutoLaunch\AutomationServer\bin\Debug\RibbonControlsLibrary.dll
+D:\Automation\Tools\AutoLaunch_27_03_2014\AutoLaunch\AutomationServer\bin\Debug\Routrek.Granados.dll
+D:\Automation\Tools\AutoLaunch_27_03_2014\AutoLaunch\AutomationServer\bin\Debug\Tamir.sharpSsh.dll
+D:\Automation\Tools\AutoLaunch_27_03_2014\AutoLaunch\AutomationServer\bin\Debug\AutomationCommon.pdb
+D:\Automation\Tools\AutoLaunch_27_03_2014\AutoLaunch\AutomationServer\obj\x86\Debug\AutomationServer.pdb
+D:\Automation\Tools\AutoLaunch_1_04_2014\AutoLaunch\AutomationServer\bin\Debug\AutoItX3.dll
+D:\Automation\Tools\AutoLaunch_1_04_2014\AutoLaunch\AutomationServer\bin\Debug\AutoItX3_x64.dll
+D:\Automation\Tools\AutoLaunch_1_04_2014\AutoLaunch\AutomationServer\bin\Debug\AutoLaunch.config
+D:\Automation\Tools\AutoLaunch_1_04_2014\AutoLaunch\AutomationServer\bin\Debug\AutomationServer.exe.config
+D:\Automation\Tools\AutoLaunch_1_04_2014\AutoLaunch\AutomationServer\bin\Debug\AutomationServer.exe
+D:\Automation\Tools\AutoLaunch_1_04_2014\AutoLaunch\AutomationServer\bin\Debug\AutomationServer.pdb
+D:\Automation\Tools\AutoLaunch_1_04_2014\AutoLaunch\AutomationServer\bin\Debug\AutomationCommon.dll
+D:\Automation\Tools\AutoLaunch_1_04_2014\AutoLaunch\AutomationServer\bin\Debug\DiffieHellman.dll
+D:\Automation\Tools\AutoLaunch_1_04_2014\AutoLaunch\AutomationServer\bin\Debug\Microsoft.Windows.Shell.dll
+D:\Automation\Tools\AutoLaunch_1_04_2014\AutoLaunch\AutomationServer\bin\Debug\Odyssey.dll
+D:\Automation\Tools\AutoLaunch_1_04_2014\AutoLaunch\AutomationServer\bin\Debug\Org.Mentalis.Security.dll
+D:\Automation\Tools\AutoLaunch_1_04_2014\AutoLaunch\AutomationServer\bin\Debug\RibbonControlsLibrary.dll
+D:\Automation\Tools\AutoLaunch_1_04_2014\AutoLaunch\AutomationServer\bin\Debug\Routrek.Granados.dll
+D:\Automation\Tools\AutoLaunch_1_04_2014\AutoLaunch\AutomationServer\bin\Debug\Tamir.sharpSsh.dll
+D:\Automation\Tools\AutoLaunch_1_04_2014\AutoLaunch\AutomationServer\bin\Debug\AutomationCommon.pdb
+D:\Automation\Tools\AutoLaunch_1_04_2014\AutoLaunch\AutomationServer\obj\x86\Debug\Auto Launch Server.csprojResolveAssemblyReference.cache
+D:\Automation\Tools\AutoLaunch_1_04_2014\AutoLaunch\AutomationServer\obj\x86\Debug\Interop.AutoItX3Lib.dll
+D:\Automation\Tools\AutoLaunch_1_04_2014\AutoLaunch\AutomationServer\obj\x86\Debug\Auto Launch Server.csproj.ResolveComReference.cache
+D:\Automation\Tools\AutoLaunch_1_04_2014\AutoLaunch\AutomationServer\obj\x86\Debug\AutomationServer.Properties.Resources.resources
+D:\Automation\Tools\AutoLaunch_1_04_2014\AutoLaunch\AutomationServer\obj\x86\Debug\Auto Launch Server.csproj.GenerateResource.Cache
+D:\Automation\Tools\AutoLaunch_1_04_2014\AutoLaunch\AutomationServer\obj\x86\Debug\AutomationServer.exe
+D:\Automation\Tools\AutoLaunch_1_04_2014\AutoLaunch\AutomationServer\obj\x86\Debug\AutomationServer.pdb
+D:\Automation\Tools\AutoLaunch_24_04_2014\AutoLaunch\AutomationServer\bin\Debug\AutoItX3.dll
+D:\Automation\Tools\AutoLaunch_24_04_2014\AutoLaunch\AutomationServer\bin\Debug\AutoItX3_x64.dll
+D:\Automation\Tools\AutoLaunch_24_04_2014\AutoLaunch\AutomationServer\bin\Debug\AutoLaunch.config
+D:\Automation\Tools\AutoLaunch_24_04_2014\AutoLaunch\AutomationServer\bin\Debug\AutomationServer.exe.config
+D:\Automation\Tools\AutoLaunch_24_04_2014\AutoLaunch\AutomationServer\bin\Debug\AutomationServer.exe
+D:\Automation\Tools\AutoLaunch_24_04_2014\AutoLaunch\AutomationServer\bin\Debug\AutomationServer.pdb
+D:\Automation\Tools\AutoLaunch_24_04_2014\AutoLaunch\AutomationServer\bin\Debug\AutomationCommon.dll
+D:\Automation\Tools\AutoLaunch_24_04_2014\AutoLaunch\AutomationServer\bin\Debug\DiffieHellman.dll
+D:\Automation\Tools\AutoLaunch_24_04_2014\AutoLaunch\AutomationServer\bin\Debug\Microsoft.Windows.Shell.dll
+D:\Automation\Tools\AutoLaunch_24_04_2014\AutoLaunch\AutomationServer\bin\Debug\Odyssey.dll
+D:\Automation\Tools\AutoLaunch_24_04_2014\AutoLaunch\AutomationServer\bin\Debug\Org.Mentalis.Security.dll
+D:\Automation\Tools\AutoLaunch_24_04_2014\AutoLaunch\AutomationServer\bin\Debug\RibbonControlsLibrary.dll
+D:\Automation\Tools\AutoLaunch_24_04_2014\AutoLaunch\AutomationServer\bin\Debug\Routrek.Granados.dll
+D:\Automation\Tools\AutoLaunch_24_04_2014\AutoLaunch\AutomationServer\bin\Debug\Tamir.sharpSsh.dll
+D:\Automation\Tools\AutoLaunch_24_04_2014\AutoLaunch\AutomationServer\bin\Debug\AutomationCommon.pdb
+D:\Automation\Tools\AutoLaunch_24_04_2014\AutoLaunch\AutomationServer\obj\x86\Debug\Auto Launch Server.csprojResolveAssemblyReference.cache
+D:\Automation\Tools\AutoLaunch_24_04_2014\AutoLaunch\AutomationServer\obj\x86\Debug\Interop.AutoItX3Lib.dll
+D:\Automation\Tools\AutoLaunch_24_04_2014\AutoLaunch\AutomationServer\obj\x86\Debug\Auto Launch Server.csproj.ResolveComReference.cache
+D:\Automation\Tools\AutoLaunch_24_04_2014\AutoLaunch\AutomationServer\obj\x86\Debug\AutomationServer.Properties.Resources.resources
+D:\Automation\Tools\AutoLaunch_24_04_2014\AutoLaunch\AutomationServer\obj\x86\Debug\Auto Launch Server.csproj.GenerateResource.Cache
+D:\Automation\Tools\AutoLaunch_24_04_2014\AutoLaunch\AutomationServer\obj\x86\Debug\AutomationServer.exe
+D:\Automation\Tools\AutoLaunch_24_04_2014\AutoLaunch\AutomationServer\obj\x86\Debug\AutomationServer.pdb
+D:\Automation\Tools\AutoLaunch_11_0_2014\AutoLaunch\AutomationServer\bin\Debug\AutoItX3.dll
+D:\Automation\Tools\AutoLaunch_11_0_2014\AutoLaunch\AutomationServer\bin\Debug\AutoItX3_x64.dll
+D:\Automation\Tools\AutoLaunch_11_0_2014\AutoLaunch\AutomationServer\bin\Debug\AutoLaunch.config
+D:\Automation\Tools\AutoLaunch_11_0_2014\AutoLaunch\AutomationServer\bin\Debug\AutomationServer.exe.config
+D:\Automation\Tools\AutoLaunch_11_0_2014\AutoLaunch\AutomationServer\bin\Debug\AutomationServer.exe
+D:\Automation\Tools\AutoLaunch_11_0_2014\AutoLaunch\AutomationServer\bin\Debug\AutomationServer.pdb
+D:\Automation\Tools\AutoLaunch_11_0_2014\AutoLaunch\AutomationServer\bin\Debug\AutomationCommon.dll
+D:\Automation\Tools\AutoLaunch_11_0_2014\AutoLaunch\AutomationServer\bin\Debug\DiffieHellman.dll
+D:\Automation\Tools\AutoLaunch_11_0_2014\AutoLaunch\AutomationServer\bin\Debug\Microsoft.Windows.Shell.dll
+D:\Automation\Tools\AutoLaunch_11_0_2014\AutoLaunch\AutomationServer\bin\Debug\Odyssey.dll
+D:\Automation\Tools\AutoLaunch_11_0_2014\AutoLaunch\AutomationServer\bin\Debug\Org.Mentalis.Security.dll
+D:\Automation\Tools\AutoLaunch_11_0_2014\AutoLaunch\AutomationServer\bin\Debug\RibbonControlsLibrary.dll
+D:\Automation\Tools\AutoLaunch_11_0_2014\AutoLaunch\AutomationServer\bin\Debug\Routrek.Granados.dll
+D:\Automation\Tools\AutoLaunch_11_0_2014\AutoLaunch\AutomationServer\bin\Debug\Tamir.sharpSsh.dll
+D:\Automation\Tools\AutoLaunch_11_0_2014\AutoLaunch\AutomationServer\bin\Debug\AutomationCommon.pdb
+D:\Automation\Tools\AutoLaunch_11_0_2014\AutoLaunch\AutomationServer\obj\x86\Debug\Auto Launch Server.csprojResolveAssemblyReference.cache
+D:\Automation\Tools\AutoLaunch_11_0_2014\AutoLaunch\AutomationServer\obj\x86\Debug\Interop.AutoItX3Lib.dll
+D:\Automation\Tools\AutoLaunch_11_0_2014\AutoLaunch\AutomationServer\obj\x86\Debug\Auto Launch Server.csproj.ResolveComReference.cache
+D:\Automation\Tools\AutoLaunch_11_0_2014\AutoLaunch\AutomationServer\obj\x86\Debug\AutomationServer.Properties.Resources.resources
+D:\Automation\Tools\AutoLaunch_11_0_2014\AutoLaunch\AutomationServer\obj\x86\Debug\Auto Launch Server.csproj.GenerateResource.Cache
+D:\Automation\Tools\AutoLaunch_11_0_2014\AutoLaunch\AutomationServer\obj\x86\Debug\AutomationServer.exe
+D:\Automation\Tools\AutoLaunch_11_0_2014\AutoLaunch\AutomationServer\obj\x86\Debug\AutomationServer.pdb
+D:\Automation\Tools\AutoLaunch_9_07_2014\AutoLaunch\AutomationServer\bin\Debug\AutoItX3.dll
+D:\Automation\Tools\AutoLaunch_9_07_2014\AutoLaunch\AutomationServer\bin\Debug\AutoItX3_x64.dll
+D:\Automation\Tools\AutoLaunch_9_07_2014\AutoLaunch\AutomationServer\bin\Debug\AutomationServer.exe.config
+D:\Automation\Tools\AutoLaunch_9_07_2014\AutoLaunch\AutomationServer\bin\Debug\AutomationServer.exe
+D:\Automation\Tools\AutoLaunch_9_07_2014\AutoLaunch\AutomationServer\bin\Debug\AutomationServer.pdb
+D:\Automation\Tools\AutoLaunch_9_07_2014\AutoLaunch\AutomationServer\bin\Debug\AutomationCommon.dll
+D:\Automation\Tools\AutoLaunch_9_07_2014\AutoLaunch\AutomationServer\bin\Debug\DiffieHellman.dll
+D:\Automation\Tools\AutoLaunch_9_07_2014\AutoLaunch\AutomationServer\bin\Debug\Microsoft.Windows.Shell.dll
+D:\Automation\Tools\AutoLaunch_9_07_2014\AutoLaunch\AutomationServer\bin\Debug\Odyssey.dll
+D:\Automation\Tools\AutoLaunch_9_07_2014\AutoLaunch\AutomationServer\bin\Debug\Org.Mentalis.Security.dll
+D:\Automation\Tools\AutoLaunch_9_07_2014\AutoLaunch\AutomationServer\bin\Debug\RibbonControlsLibrary.dll
+D:\Automation\Tools\AutoLaunch_9_07_2014\AutoLaunch\AutomationServer\bin\Debug\Routrek.Granados.dll
+D:\Automation\Tools\AutoLaunch_9_07_2014\AutoLaunch\AutomationServer\bin\Debug\Tamir.sharpSsh.dll
+D:\Automation\Tools\AutoLaunch_9_07_2014\AutoLaunch\AutomationServer\bin\Debug\AutomationCommon.pdb
+D:\Automation\Tools\AutoLaunch_9_07_2014\AutoLaunch\AutomationServer\obj\x86\Debug\Auto Launch Server.csprojResolveAssemblyReference.cache
+D:\Automation\Tools\AutoLaunch_9_07_2014\AutoLaunch\AutomationServer\obj\x86\Debug\Interop.AutoItX3Lib.dll
+D:\Automation\Tools\AutoLaunch_9_07_2014\AutoLaunch\AutomationServer\obj\x86\Debug\Auto Launch Server.csproj.ResolveComReference.cache
+D:\Automation\Tools\AutoLaunch_9_07_2014\AutoLaunch\AutomationServer\obj\x86\Debug\AutomationServer.Properties.Resources.resources
+D:\Automation\Tools\AutoLaunch_9_07_2014\AutoLaunch\AutomationServer\obj\x86\Debug\Auto Launch Server.csproj.GenerateResource.Cache
+D:\Automation\Tools\AutoLaunch_9_07_2014\AutoLaunch\AutomationServer\obj\x86\Debug\AutomationServer.exe
+D:\Automation\Tools\AutoLaunch_9_07_2014\AutoLaunch\AutomationServer\obj\x86\Debug\AutomationServer.pdb
+D:\Automation\Tools\AutoLaunch_9_11_2014\AutoLaunch\AutomationServer\bin\Debug\AutoItX3.dll
+D:\Automation\Tools\AutoLaunch_9_11_2014\AutoLaunch\AutomationServer\bin\Debug\AutoItX3_x64.dll
+D:\Automation\Tools\AutoLaunch_9_11_2014\AutoLaunch\AutomationServer\bin\Debug\AutomationServer.exe.config
+D:\Automation\Tools\AutoLaunch_9_11_2014\AutoLaunch\AutomationServer\bin\Debug\AutomationServer.exe
+D:\Automation\Tools\AutoLaunch_9_11_2014\AutoLaunch\AutomationServer\bin\Debug\AutomationServer.pdb
+D:\Automation\Tools\AutoLaunch_9_11_2014\AutoLaunch\AutomationServer\bin\Debug\AutomationCommon.dll
+D:\Automation\Tools\AutoLaunch_9_11_2014\AutoLaunch\AutomationServer\bin\Debug\DiffieHellman.dll
+D:\Automation\Tools\AutoLaunch_9_11_2014\AutoLaunch\AutomationServer\bin\Debug\Microsoft.Windows.Shell.dll
+D:\Automation\Tools\AutoLaunch_9_11_2014\AutoLaunch\AutomationServer\bin\Debug\Odyssey.dll
+D:\Automation\Tools\AutoLaunch_9_11_2014\AutoLaunch\AutomationServer\bin\Debug\Org.Mentalis.Security.dll
+D:\Automation\Tools\AutoLaunch_9_11_2014\AutoLaunch\AutomationServer\bin\Debug\RibbonControlsLibrary.dll
+D:\Automation\Tools\AutoLaunch_9_11_2014\AutoLaunch\AutomationServer\bin\Debug\Routrek.Granados.dll
+D:\Automation\Tools\AutoLaunch_9_11_2014\AutoLaunch\AutomationServer\bin\Debug\Tamir.sharpSsh.dll
+D:\Automation\Tools\AutoLaunch_9_11_2014\AutoLaunch\AutomationServer\bin\Debug\AutomationCommon.pdb
+D:\Automation\Tools\AutoLaunch_9_11_2014\AutoLaunch\AutomationServer\obj\x86\Debug\Auto Launch Server.csprojResolveAssemblyReference.cache
+D:\Automation\Tools\AutoLaunch_9_11_2014\AutoLaunch\AutomationServer\obj\x86\Debug\Interop.AutoItX3Lib.dll
+D:\Automation\Tools\AutoLaunch_9_11_2014\AutoLaunch\AutomationServer\obj\x86\Debug\Auto Launch Server.csproj.ResolveComReference.cache
+D:\Automation\Tools\AutoLaunch_9_11_2014\AutoLaunch\AutomationServer\obj\x86\Debug\AutomationServer.Properties.Resources.resources
+D:\Automation\Tools\AutoLaunch_9_11_2014\AutoLaunch\AutomationServer\obj\x86\Debug\Auto Launch Server.csproj.GenerateResource.Cache
+D:\Automation\Tools\AutoLaunch_9_11_2014\AutoLaunch\AutomationServer\obj\x86\Debug\AutomationServer.exe
+D:\Automation\Tools\AutoLaunch_9_11_2014\AutoLaunch\AutomationServer\obj\x86\Debug\AutomationServer.pdb

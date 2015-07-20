@@ -1,0 +1,116 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="AutomationServer.Actions.ActionBase" Collapsed="true">
+    <Position X="1.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAAAAAAQAAAAAAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>Actions\ActionBase.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AutomationServer.Actions.CommandLine" Collapsed="true">
+    <Position X="0.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAA=</HashCode>
+      <FileName>Actions\CommandLine.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AutomationServer.Actions.WaitAction" Collapsed="true">
+    <Position X="2.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEASAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Actions\WaitAction.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AutomationServer.AutomationManager" Collapsed="true">
+    <Position X="8.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>AutomationManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AutomationServer.ScriptObj" Collapsed="true">
+    <Position X="8.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAgAAAAAAAACAAAAAAAAAAAAAEAAAAAAAA=</HashCode>
+      <FileName>Modules\Entities\ScriptObj.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AutomationServer.StepEntity" Collapsed="true">
+    <Position X="7" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAQ=</HashCode>
+      <FileName>Modules\Entities\StepEntity.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AutomationServer.StartUp" Collapsed="true">
+    <Position X="5.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>StartUp.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AutomationServer.Modules.ActionHandler" Collapsed="true">
+    <Position X="5.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIABCAAAAAgAAAAAAAAAACAAAACCAAAAAAAQBAAAAg=</HashCode>
+      <FileName>Modules\ActionHandler.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AutomationServer.Modules.AutoLogger" Collapsed="true">
+    <Position X="7" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAACAEAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Modules\AutoLogger.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AutomationServer.Modules.HServer" Collapsed="true">
+    <Position X="10.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAIAAAAAAAA=</HashCode>
+      <FileName>Modules\HttpServer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AutomationServer.Modules.Singleton" Collapsed="true">
+    <Position X="10.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAADAAAAAAAAAAAAAAAAAQAAAAABAAAA=</HashCode>
+      <FileName>Modules\Singleton.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AutomationServer.Modules.TcpListenner" Collapsed="true">
+    <Position X="8.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAEAAEAEA=</HashCode>
+      <FileName>Modules\TcpListenner.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AutomationServer.Modules.Entities.Job" Collapsed="true">
+    <Position X="5.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAgAAAAAAAACAAAAAAAAAAAAAEAAAAAAAA=</HashCode>
+      <FileName>Modules\Entities\Job.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AutomationServer.Modules.Entities.JobEntity" Collapsed="true">
+    <Position X="7" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAAAAAAAAAAAACAAAAAAAAAAAAAAACAAAAAA=</HashCode>
+      <FileName>Modules\Entities\JobEntity.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AutomationServer.Modules.Entities.TestEntity" Collapsed="true">
+    <Position X="10.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAgAAA=</HashCode>
+      <FileName>Modules\Entities\TestEntity.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AutomationServer.Modules.Entities.TestObj" Collapsed="true">
+    <Position X="5.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAgAAAAAAAACAAAAAAAAAAAAAEAAAAAAAA=</HashCode>
+      <FileName>Modules\Entities\TestObj.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

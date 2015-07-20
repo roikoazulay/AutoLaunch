@@ -1,0 +1,44 @@
+﻿<Window x:Class="AutomationClient.Views.SleepView"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:local="clr-namespace:AutomationClient"
+        Title="Sleep"
+        Width="340"
+        Height="150"
+        Icon="/Images/clock-icon.png"
+        ResizeMode="NoResize">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+        <ToolBar Grid.Row="0" Height="41">
+            <Button Name="saveBtn" Click="saveBtn_Click">
+                <Button.Style>
+                    <Style>
+                        <Style.Triggers>
+                            <DataTrigger Binding="{Binding GetToolBoxList.Count}" Value="0">
+                                <Setter Property="UIElement.IsEnabled" Value="false" />
+                            </DataTrigger>
+                        </Style.Triggers>
+                    </Style>
+                </Button.Style>
+                <Image Height="25" Source="/Images/Pen-Blue-icon.png" />
+            </Button>
+        </ToolBar>
+        <StackPanel Grid.Row="1" Orientation="Horizontal">
+            <Label Name="label1"
+                   Width="83"
+                   Height="31"
+                   Content="Delay in Sec:" />
+
+            <!--  <ComboBox IsEditable="True"  Name="delayCmb" Width="156" IsEnabled="True" />  -->
+            <ComboBox Name="delayCmb"
+                      Width="200"
+                      Height="23"
+                      Margin="2,0,0,0"
+                      IsEditable="True"
+                      ItemsSource="{Binding Path=VariableList}" />
+        </StackPanel>
+    </Grid>
+</Window>

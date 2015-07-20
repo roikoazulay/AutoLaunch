@@ -1,0 +1,20 @@
+﻿
+
+to support firebird DB , install firebird and use isql.exe for executing query in Run
+ 
+C:\Program Files\Firebird\Firebird_2_5\bin\isql.exe -q -i script.sql > result.txt
+
+======== script.sql=======================================================
+CONNECT ..\examples\empbuild\employee.fdb user SYSDBA password masterkey;
+select * from country where   country = 'USA';
+QUIT;
+
+
+
+
+
+//"-s:temp.tsu" -c:true -o:Continue -l:1
+
+
+
+  // label fix new version
