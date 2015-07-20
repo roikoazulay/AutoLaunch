@@ -15,3 +15,6 @@ version 1.0.0.2 - 3/10/2012
 4.Adding Join string action in Text Operation
 5.Adding support for WGT RS232 communication 
 6.Adding Table Actions - import/Export CSV etc...
+
+new release
+
